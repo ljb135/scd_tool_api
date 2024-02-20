@@ -35,8 +35,6 @@ class Insurance(db.Model):
     coverage = db.Column(db.Boolean)
     
 
-    
-    
-    
+
     
     

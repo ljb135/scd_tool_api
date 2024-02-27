@@ -1,6 +1,7 @@
 from flask import Blueprint, request, Response, jsonify
 from sqlalchemy import select
 from database import db, User
+from flask_login import login_required
 
 user_routes = Blueprint('user', __name__, url_prefix='/user')
 
@@ -20,13 +21,15 @@ def get_all_users():
     return jsonify(list(users))
 
 
-@user_routes.route("/<int:id>", methods=['GET'])
+@user_routes.route("/<int:user_id>", methods=['GET'])
+@login_required
 def get_user(user_id):
     user = db.get_or_404(User, user_id)
     return jsonify(user)
 
 
-@user_routes.route("/<int:id>", methods=['PUT'])
+@user_routes.route("/<int:user_id>", methods=['PUT'])
+@login_required
 def modify_user(user_id):
     content = request.json
     user = db.get_or_404(User, user_id)
@@ -36,7 +39,8 @@ def modify_user(user_id):
     return Response("User has been updated.", status=200)
 
 
-@user_routes.route("/<int:id>", methods=['DELETE'])
+@user_routes.route("/<int:user_id>", methods=['DELETE'])
+@login_required
 def delete_user(user_id):
     user = db.get_or_404(User, user_id)
     db.session.delete(user)

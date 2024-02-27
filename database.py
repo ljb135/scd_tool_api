@@ -4,7 +4,6 @@ from dataclasses import dataclass
 
 db = SQLAlchemy()
 
-
 @dataclass
 class User(db.Model):
     id: int = Column(Integer, primary_key=True)

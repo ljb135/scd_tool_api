@@ -2,6 +2,7 @@ from flask import Flask, jsonify, request, Response
 from database import db
 from routes.user import user_routes
 from routes.session import session_routes, login_manager
+from routes.center import center_routes
 
 
 app = Flask(__name__)
@@ -18,21 +19,8 @@ with app.app_context():
 
 # routes
 app.register_blueprint(user_routes)
-
-@app.route("/center", methods=['GET'])
-def index():
-    center_data = [{
-        "id:": 1,
-        "name": "Center for Discovery",
-        "address": "1234 Main St",
-    },
-    {
-        "id:": 2,
-        "name": "The Meadows Ranch",
-        "address": "3456 Elm St",
-    }]
-    return jsonify(center_data)
-
+app.register_blueprint(session_routes)
+app.register_blueprint(center_routes)
 
 if __name__ == "__main__":
     app.run(debug=True)

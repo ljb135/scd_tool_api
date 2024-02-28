@@ -29,11 +29,11 @@ class User(UserMixin, db.Model):
 @dataclass
 class Center(db.Model):
     id: int = Column(Integer, primary_key=True)
+    name: str = Column(String(100), unique=True, nullable=False)
     address: str = Column(String(60), unique=True, nullable=False)
     google_review: str = Column(String(150))
     email: str = Column(String(30), unique=True, nullable=False)
     phone_number: int = Column(Integer, unique=True, nullable=False)
-
     treatments: Mapped[List['Treatment']] = relationship(back_populates='center')
 
 

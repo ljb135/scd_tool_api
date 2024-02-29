@@ -18,14 +18,14 @@ def add_user():
 @user_routes.route("/", methods=['GET'])
 def get_all_users():
     users = db.session.scalars(select(User))
-    return jsonify(list(users))
+    return [user.to_dict() for user in users]
 
 
 @user_routes.route("/<int:user_id>", methods=['GET'])
 @login_required
 def get_user(user_id):
     user = db.get_or_404(User, user_id)
-    return jsonify(user)
+    return user.to_dict()
 
 
 @user_routes.route("/<int:user_id>", methods=['PUT'])

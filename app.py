@@ -2,6 +2,7 @@ from flask import Flask
 from database import db
 from routes.user import user_routes
 from routes.session import session_routes, login_manager
+from routes.center import center_routes
 
 
 app = Flask(__name__)
@@ -16,3 +17,4 @@ with app.app_context():
 
 app.register_blueprint(user_routes)
 app.register_blueprint(session_routes)
+app.register_blueprint(center_routes)

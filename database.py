@@ -1,7 +1,7 @@
 from typing import List
 
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy import Integer, String, Boolean, Date, Column, ForeignKey, Float
+from sqlalchemy import Integer, String, Boolean, Date, Column, ForeignKey, Float, Table
 from flask_login import UserMixin
 from sqlalchemy.orm import relationship, Mapped
 from sqlalchemy_serializer import SerializerMixin
@@ -12,7 +12,7 @@ db = SQLAlchemy()
 
 @dataclass
 class User(db.Model, UserMixin, SerializerMixin):
-    serialize_rules = ('-treatment.patients',)
+    serialize_rules = ('-treatment.patients', '-insurance.users', '-insurance.covers')
 
     id: int = Column(Integer, primary_key=True)
     email: str = Column(String(50), unique=True, nullable=False)
@@ -22,19 +22,29 @@ class User(db.Model, UserMixin, SerializerMixin):
     DoB: str = Column(Date, unique=False, nullable=False)
     phone_number: str = Column(String(20), unique=True, nullable=False)
     ethnicity: str = Column(String(20))
-    address: str = Column(String(100), unique=False, nullable=False)
-    # insurance: str = Column(String(30))
+    address: str = Column(String(200), unique=False, nullable=False)
     income: int = Column(Integer)
     education: str = Column(String(30))
     preferred_transportation: str = Column(String(10))
+
+    insurance_id: int = Column(ForeignKey("insurance.id"))
+    insurance: Mapped['Insurance'] = relationship(back_populates="users")
 
     treatment_id: int = Column(ForeignKey("treatment.id"))
     treatment: Mapped['Treatment'] = relationship(back_populates="patients")
 
 
+coverage_table = Table(
+    "coverage_table",
+    db.metadata,
+    Column("insurance_id", ForeignKey("insurance.id"), primary_key=True),
+    Column("center_id", ForeignKey("center.id"), primary_key=True),
+)
+
+
 @dataclass
 class Center(db.Model, SerializerMixin):
-    serialize_rules = ('-treatments.center',)
+    serialize_rules = ('-treatments.center', '-treatments.patients', '-insurances.users', '-insurances.covers')
 
     id: int = Column(Integer, primary_key=True)
     name: str = Column(String(100), unique=True, nullable=False)
@@ -46,11 +56,12 @@ class Center(db.Model, SerializerMixin):
     reviews: float = Column(Float)
 
     treatments: Mapped[List['Treatment']] = relationship(back_populates='center')
+    insurances: Mapped[List['Insurance']] = relationship(secondary=coverage_table, back_populates='covers')
 
 
 @dataclass
 class Treatment(db.Model, SerializerMixin):
-    serialize_rules = ('-center.treatments', '-user.treatment')
+    serialize_rules = ('-center.treatments', '-patients.treatment', '-patients.insurance')
 
     id: int = Column(Integer, primary_key=True)
     type: str = Column(String(30), nullable=False)  # Integer?
@@ -62,7 +73,10 @@ class Treatment(db.Model, SerializerMixin):
 
 @dataclass
 class Insurance(db.Model, SerializerMixin):
-    id = Column(Integer, primary_key=True)
-    name = Column(String(30), nullable=False)
-    company = Column(String(20), nullable=False)
-    coverage = Column(Boolean)
+    serialize_rules = ('-user.insurance', '-center.insurances')
+
+    id: int = Column(Integer, primary_key=True)
+    name: str = Column(String(50), unique=True, nullable=False)
+
+    users: Mapped[List['User']] = relationship(back_populates='insurance')
+    covers: Mapped[List['Center']] = relationship(secondary=coverage_table, back_populates='insurances')

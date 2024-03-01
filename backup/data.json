@@ -8,10 +8,11 @@
       "DoB": "2012-04-25",
       "phone_number": "555-987-6543",
       "ethnicity": "African-American",
-      "address": "123 PA-611, Stroudsburg, PA 18360",
+      "address": "1745 T Street Southeast, Washington, DC 20020",
       "income": "0",
       "education": "1",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "centene_corporation"
     },
     {
       "email": "bob.jones@email.com",
@@ -21,10 +22,11 @@
       "DoB": "2017-11-10",
       "phone_number": "555-234-5678",
       "ethnicity": "Caucasian",
-      "address": "1401 Broad St, Endicott, NY 13760",
+      "address": "6007 Applegate Lane, Louisville, KY 40219",
       "income": "0",
       "education": "1",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "humana"
     },
     {
       "email": "emily.wang@email.com",
@@ -34,10 +36,11 @@
       "DoB": "2008-07-15",
       "phone_number": "555-876-5432",
       "ethnicity": "Asian",
-      "address": "3740 Timber Creek Ct, Eau Claire, WI 54701",
+      "address": "560 Penstock Drive, Grass Valley, CA 95945",
       "income": "79000",
       "education": "5",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "centene_corporation"
     },
     {
       "email": "michael.davis@email.com",
@@ -47,10 +50,11 @@
       "DoB": "1975-02-03",
       "phone_number": "555-345-6789",
       "ethnicity": "Hispanic",
-      "address": "22 Main St, Hamburg, NY 14075",
+      "address": "150 Carter Street, Manchester, CT 06040",
       "income": "34000",
       "education": "3",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "humana"
     },
     {
       "email": "sarah.jackson@email.com",
@@ -60,10 +64,11 @@
       "DoB": "2009-09-20",
       "phone_number": "555-654-3210",
       "ethnicity": "Caucasian",
-      "address": "800 N Larkin Ave, Joliet, IL 60435",
+      "address": "2721 Lindsay Avenue, Louisville, KY 40206",
       "income": "0",
       "education": "1",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "molina_healthcare"
     },
     {
       "email": "alex.nguyen@email.com",
@@ -73,10 +78,11 @@
       "DoB": "1995-06-12",
       "phone_number": "555-543-2109",
       "ethnicity": "Asian",
-      "address": "3815 Austinburg Rd, Ashtabula, OH 44004",
+      "address": "18 Densmore Drive, Essex, VT 05452",
       "income": "124000",
       "education": "2",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "cigna"
     },
     {
       "email": "olivia.miller@email.com",
@@ -86,10 +92,11 @@
       "DoB": "1980-12-28",
       "phone_number": "555-789-0123",
       "ethnicity": "Caucasian",
-      "address": "447 Belmont Ave, Haledon, NJ 07508",
+      "address": "637 Britannia Drive, Vallejo, CA 94591",
       "income": "38000",
       "education": "4",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "molina_healthcare"
     },
     {
       "email": "daniel.johnson@email.com",
@@ -99,10 +106,11 @@
       "DoB": "1993-03-08",
       "phone_number": "555-012-3456",
       "ethnicity": "African-American",
-      "address": "7020 Slater Pines Dr, North Fort Myers, FL 33917",
+      "address": "5601 West Crocus Drive, Glendale, AZ 85306",
       "income": "138000",
       "education": "6",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "blue_cross_blue_shield_association"
     },
     {
       "email": "grace.wilson@email.com",
@@ -112,10 +120,11 @@
       "DoB": "2010-05-30",
       "phone_number": "555-234-5679",
       "ethnicity": "Caucasian",
-      "address": "84 Broadway, New Haven, CT 06511",
+      "address": "5403 Illinois Avenue, Nashville, TN 37209",
       "income": "0",
       "education": "1",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "molina_healthcare"
     },
     {
       "email": "john.doe@email.com",
@@ -125,10 +134,11 @@
       "DoB": "1985-07-12",
       "phone_number": "555-123-4567",
       "ethnicity": "Caucasian",
-      "address": "4 Miller St, Macungie, PA 18062",
+      "address": "8821 West Myrtle Avenue, Glendale, AZ 85305",
       "income": "55000",
       "education": "2",
-      "preferred_transportation": "transit"
+      "preferred_transportation": "transit",
+      "insurance": "molina_healthcare"
     },
     {
       "email": "jane.roe@email.com",
@@ -138,10 +148,11 @@
       "DoB": "1992-10-30",
       "phone_number": "555-987-1234",
       "ethnicity": "Hispanic",
-      "address": "8033 Marvon Dr., Farmington, MI 48331",
+      "address": "2203 7th Street Road, Louisville, KY 40208",
       "income": "13000",
       "education": "1",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "unitedHealth_group"
     },
     {
       "email": "dave.brown@email.com",
@@ -151,10 +162,11 @@
       "DoB": "1988-03-22",
       "phone_number": "555-654-7890",
       "ethnicity": "Asian",
-      "address": "7 West Shady Ave., Bismarck, ND 58501",
+      "address": "6463 Vrain Street, Arvada, CO 80003",
       "income": "213000",
       "education": "4",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "humana"
     },
     {
       "email": "emily.jones@email.com",
@@ -164,10 +176,11 @@
       "DoB": "1976-01-18",
       "phone_number": "555-321-6549",
       "ethnicity": "White",
-      "address": "7612 Silver Spear Ave., De Pere, WI 54115",
+      "address": "87 Horseshoe Drive, West Windsor, VT 05037",
       "income": "87000",
       "education": "6",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "health_care_service_corporation"
     },
     {
       "email": "michael.jordan@email.com",
@@ -177,10 +190,11 @@
       "DoB": "1995-12-15",
       "phone_number": "555-456-7891",
       "ethnicity": "African-American",
-      "address": "530 Tanglewood Court, Monroe Township, NJ 08831",
+      "address": "60 Desousa Drive, Manchester, CT 06040",
       "income": "94000",
       "education": "3",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "anthem_inc"
     },
     {
       "email": "lisa.white@email.com",
@@ -190,10 +204,11 @@
       "DoB": "1982-09-05",
       "phone_number": "555-213-4565",
       "ethnicity": "Native American",
-      "address": "64 Highland Road, Wooster, OH 44691",
+      "address": "4 Old Colony Way, Yarmouth, MA 02664",
       "income": "112000",
       "education": "5",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "health_care_service_corporation"
     },
     {
       "email": "mark.green@email.com",
@@ -203,10 +218,11 @@
       "DoB": "1979-05-14",
       "phone_number": "555-789-3210",
       "ethnicity": "White",
-      "address": "962 N. Courtland Street, Dayton, OH 45420",
+      "address": "314 South 17th Street, Nashville, TN 37206",
       "income": "85000",
       "education": "2",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "molina_healthcare"
     },
     {
       "email": "chloe.tan@email.com",
@@ -216,10 +232,11 @@
       "DoB": "1993-04-17",
       "phone_number": "555-321-9876",
       "ethnicity": "Asian",
-      "address": "381 E. Prairie St., Andover, MA 01810",
+      "address": "1649 Timberridge Court, Fayetteville, AR 72704",
       "income": "29000",
       "education": "4",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "unitedHealth_group"
     },
     {
       "email": "ethan.gray@email.com",
@@ -229,10 +246,11 @@
       "DoB": "1987-11-21",
       "phone_number": "555-123-9870",
       "ethnicity": "Caucasian",
-      "address": "8 Cambridge Drive, Bridgeport, CT 06606",
+      "address": "5461 West Shades Valley Drive, Montgomery, AL 36108",
       "income": "64000",
       "education": "1",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "centene_corporation"
     },
     {
       "email": "sophia.davis@email.com",
@@ -242,10 +260,11 @@
       "DoB": "1991-08-02",
       "phone_number": "555-654-3214",
       "ethnicity": "Hispanic",
-      "address": "9261 Division Rd., Port Huron, MI 48060",
+      "address": "629 Debbie Drive, Nashville, TN 37076",
       "income": "126000",
       "education": "6",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "humana"
     },
     {
       "email": "michael.brown@email.com",
@@ -255,10 +274,11 @@
       "DoB": "1985-06-15",
       "phone_number": "555-456-7890",
       "ethnicity": "Caucasian",
-      "address": "671 West Pierce Street, Fort Wayne, IN 46804",
+      "address": "22572 Toreador Drive, Salinas, CA 93908",
       "income": "24000",
       "education": "3",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "blue_cross_blue_shield_association"
     },
     {
       "email": "lisa.white@email.com",
@@ -268,10 +288,11 @@
       "DoB": "1992-09-25",
       "phone_number": "555-654-1234",
       "ethnicity": "Hispanic",
-      "address": "577 University Ave., Lansdowne, PA 19050",
+      "address": "3034 Mica Street, Fayetteville, AR 72704",
       "income": "24000",
       "education": "3",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "humana"
     },
     {
       "email": "james.johnson@email.com",
@@ -281,10 +302,11 @@
       "DoB": "1980-04-10",
       "phone_number": "555-456-1230",
       "ethnicity": "African-American",
-      "address": "155 Buttonwood St., Findlay, OH 45840",
+      "address": "3729 East Mission Boulevard, Fayetteville, AR 72703",
       "income": "228000",
       "education": "4",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "aetna"
     },
     {
       "email": "emily.davis@email.com",
@@ -294,10 +316,11 @@
       "DoB": "1995-08-19",
       "phone_number": "555-321-4567",
       "ethnicity": "Asian",
-      "address": "48 W. Vale Street, Saint Cloud, MN 56301",
+      "address": "5114 Greentree Drive, Nashville, TN 37211",
       "income": "50000",
       "education": "2",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "cigna"
     },
     {
       "email": "david.martinez@email.com",
@@ -307,10 +330,11 @@
       "DoB": "1978-02-26",
       "phone_number": "555-654-7891",
       "ethnicity": "Hispanic",
-      "address": "9450 Williams St., Grosse Pointe, MI 48236",
+      "address": "3466 Southview Avenue, Montgomery, AL 36111",
       "income": "120000",
       "education": "5",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "cigna"
     },
     {
       "email": "sarah.lee@email.com",
@@ -320,10 +344,11 @@
       "DoB": "1989-11-30",
       "phone_number": "555-987-3210",
       "ethnicity": "Caucasian",
-      "address": "587 Delaware Avenue, Greenwood, SC 29646",
+      "address": "1513 Cathy Street, Savannah, GA 31415",
       "income": "48000",
       "education": "1",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "humana"
     },
     {
       "email": "daniel.wilson@email.com",
@@ -333,10 +358,11 @@
       "DoB": "1993-05-17",
       "phone_number": "555-567-8910",
       "ethnicity": "African-American",
-      "address": "52 North Ave., Mount Laurel, NJ 08054",
+      "address": "600 West 19th Avenue, Anchorage, AK 99503",
       "income": "125000",
       "education": "6",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "centene_corporation"
     },
     {
       "email": "jessica.taylor@email.com",
@@ -346,10 +372,11 @@
       "DoB": "1987-07-24",
       "phone_number": "555-678-9101",
       "ethnicity": "Asian",
-      "address": "10 Oak Drive, East Meadow, NY 11554",
+      "address": "1208 Elkader Court North, Nashville, TN 37013",
       "income": "26000",
       "education": "2",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "aetna"
     },
     {
       "email": "william.moore@email.com",
@@ -359,10 +386,11 @@
       "DoB": "1976-03-11",
       "phone_number": "555-789-1011",
       "ethnicity": "Caucasian",
-      "address": "188 Cedar St., Brainerd, MN 56401",
+      "address": "210 Green Road, Manchester, CT 06042",
       "income": "56000",
       "education": "3",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "unitedHealth_group"
     },
     {
       "email": "laura.jackson@email.com",
@@ -372,10 +400,11 @@
       "DoB": "1985-12-01",
       "phone_number": "555-890-1112",
       "ethnicity": "Hispanic",
-      "address": "430 Bank Street, Aliquippa, PA 15001",
+      "address": "49548 Road 200, O'Neals, CA 93645",
       "income": "66000",
       "education": "4",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "aetna"
     },
     {
       "email": "anthony.hall@email.com",
@@ -385,10 +414,11 @@
       "DoB": "1990-03-22",
       "phone_number": "555-901-1113",
       "ethnicity": "Caucasian",
-      "address": "36 Carpenter Ave., Yuma, AZ 85365",
+      "address": "81 Seaton Place Northwest, Washington, DC 20001",
       "income": "118000",
       "education": "5",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "anthem_inc"
     },
     {
       "email": "karen.wright@email.com",
@@ -398,10 +428,11 @@
       "DoB": "1986-07-18",
       "phone_number": "555-012-1114",
       "ethnicity": "African-American",
-      "address": "186 SE. Marshall Street, Montgomery Village, MD 20886",
+      "address": "1267 Martin Street, Nashville, TN 37203",
       "income": "233000",
       "education": "1",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "health_care_service_corporation"
     },
     {
       "email": "brian.hernandez@email.com",
@@ -411,10 +442,11 @@
       "DoB": "1983-10-05",
       "phone_number": "555-123-1115",
       "ethnicity": "Hispanic",
-      "address": "468 Forest Lane, Hackettstown, NJ 07840",
+      "address": "7431 Candace Way, Louisville, KY 40214",
       "income": "65000",
       "education": "6",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "blue_cross_blue_shield_association"
     },
     {
       "email": "nicole.lopez@email.com",
@@ -424,10 +456,11 @@
       "DoB": "1991-05-14",
       "phone_number": "555-234-1116",
       "ethnicity": "Hispanic",
-      "address": "9590 Harvey Street, North Attleboro, MA 02760",
+      "address": "1407 Walden Court, Crofton, MD 21114",
       "income": "136000",
       "education": "4",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "kaiser_permanente"
     },
     {
       "email": "kevin.garcia@email.com",
@@ -437,10 +470,11 @@
       "DoB": "1987-01-30",
       "phone_number": "555-345-1117",
       "ethnicity": "Asian",
-      "address": "7872 N. Glendale Lane, Hoffman Estates, IL 60169",
+      "address": "5906 Milton Avenue, Deale, MD 20751",
       "income": "146000",
       "education": "2",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "molina_healthcare"
     },
     {
       "email": "jessica.clark@email.com",
@@ -450,10 +484,11 @@
       "DoB": "1989-04-26",
       "phone_number": "555-456-1118",
       "ethnicity": "Caucasian",
-      "address": "9046 East Clay Ave., Osseo, MN 55311",
+      "address": "74 Springfield Street, Agawam, MA 01001",
       "income": "49000",
       "education": "3",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "humana"
     },
     {
       "email": "matthew.rodriguez@email.com",
@@ -463,10 +498,11 @@
       "DoB": "1982-09-09",
       "phone_number": "555-567-1119",
       "ethnicity": "Hispanic",
-      "address": "7258 East Cross Dr., Kalamazoo, MI 49009",
+      "address": "2905 Stonebridge Court, Norman, OK 73071",
       "income": "103000",
       "education": "5",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "centene_corporation"
     },
     {
       "email": "ashley.lewis@email.com",
@@ -476,10 +512,11 @@
       "DoB": "1994-12-16",
       "phone_number": "555-678-1120",
       "ethnicity": "African-American",
-      "address": "7051 West Arrowhead St., Cumberland, RI 02864",
+      "address": "20930 Todd Valley Road, Foresthill, CA 95631",
       "income": "3000",
       "education": "1",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "centene_corporation"
     },
     {
       "email": "chris.walker@email.com",
@@ -489,10 +526,11 @@
       "DoB": "1979-08-25",
       "phone_number": "555-789-1121",
       "ethnicity": "Caucasian",
-      "address": "8914 N. Glen Creek Street, Traverse City, MI 49684",
+      "address": "5928 West Mauna Loa Lane, Glendale, AZ 85306",
       "income": "11000",
       "education": "6",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "humana"
     },
     {
       "email": "stephanie.allen@email.com",
@@ -502,10 +540,11 @@
       "DoB": "1992-11-01",
       "phone_number": "555-890-1122",
       "ethnicity": "Asian",
-      "address": "702 Ketch Harbour Drive, Shelton, CT 06484",
+      "address": "802 Madison Street Northwest, Washington, DC 20011",
       "income": "70000",
       "education": "2",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "aetna"
     },
     {
       "email": "gregory.young@email.com",
@@ -515,10 +554,11 @@
       "DoB": "1988-05-20",
       "phone_number": "555-901-1123",
       "ethnicity": "Caucasian",
-      "address": "52 West Somerset Dr., Greensboro, NC 27405",
+      "address": "2811 Battery Place Northwest, Washington, DC 20016",
       "income": "95000",
       "education": "4",
-      "preferred_transportation": "transit"
+      "preferred_transportation": "transit",
+      "insurance": "unitedHealth_group"
     },
     {
       "email": "sandra.hernandez@email.com",
@@ -528,10 +568,11 @@
       "DoB": "1985-02-14",
       "phone_number": "555-012-1124",
       "ethnicity": "Hispanic",
-      "address": "264 Branch Street, Waltham, MA 02453",
+      "address": "210 Lacross Lane, Westmore, VT 05860",
       "income": "48000",
       "education": "3",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "centene_corporation"
     },
     {
       "email": "douglas.king@email.com",
@@ -541,10 +582,11 @@
       "DoB": "1980-07-07",
       "phone_number": "555-123-1125",
       "ethnicity": "African-American",
-      "address": "8752 Mountainview St., Des Plaines, IL 60016",
+      "address": "2010 Rising Hill Drive, Norman, OK 73071",
       "income": "184000",
       "education": "5",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "kaiser_permanente"
     },
     {
       "email": "melissa.wright@email.com",
@@ -554,10 +596,11 @@
       "DoB": "1993-10-28",
       "phone_number": "555-131-2125",
       "ethnicity": "Caucasian",
-      "address": "4 Wakehurst St., Evanston, IL 60201",
+      "address": "388 East Main Street, Middlebury, VT 05753",
       "income": "34000",
       "education": "1",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "blue_cross_blue_shield_association"
     },
     {
       "email": "joshua.lopez@email.com",
@@ -567,10 +610,11 @@
       "DoB": "1995-03-15",
       "phone_number": "555-141-3126",
       "ethnicity": "Hispanic",
-      "address": "7650 West Glen Eagles Ave., Eastpointe, MI 48021",
+      "address": "450 Kinhawk Drive, Nashville, TN 37211",
       "income": "61000",
       "education": "6",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "health_care_service_corporation"
     },
     {
       "email": "heather.garcia@email.com",
@@ -580,10 +624,11 @@
       "DoB": "1989-06-04",
       "phone_number": "555-151-4127",
       "ethnicity": "Asian",
-      "address": "104 S. Pilgrim Drive, Schenectady, NY 12302",
+      "address": "131 Westerly Street, Manchester, CT 06042",
       "income": "23000",
       "education": "4",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "humana"
     },
     {
       "email": "scott.clark@email.com",
@@ -593,10 +638,11 @@
       "DoB": "1981-11-22",
       "phone_number": "555-161-5128",
       "ethnicity": "Caucasian",
-      "address": "727 N. Marconi Court, Elk Grove Village, IL 60007",
+      "address": "308 Woodleaf Court, Glen Burnie, MD 21061",
       "income": "135000",
       "education": "2",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "humana"
     },
     {
       "email": "erica.rodriguez@email.com",
@@ -606,10 +652,11 @@
       "DoB": "1977-04-10",
       "phone_number": "555-171-6129",
       "ethnicity": "Hispanic",
-      "address": "9597 Paris Hill St., Grayslake, IL 60030",
+      "address": "8502 Madrone Avenue, Louisville, KY 40258",
       "income": "32000",
       "education": "3",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "molina_healthcare"
     },
     {
       "email": "jeffrey.lewis@email.com",
@@ -619,10 +666,11 @@
       "DoB": "1984-08-31",
       "phone_number": "555-181-7130",
       "ethnicity": "African-American",
-      "address": "93 Vermont Drive, Dawsonville, GA 30534",
+      "address": "23 Sable Run Lane, Methuen, MA 01844",
       "income": "112000",
       "education": "5",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "blue_cross_blue_shield_association"
     },
     {
       "email": "kimberly.walker@email.com",
@@ -632,10 +680,11 @@
       "DoB": "1990-01-19",
       "phone_number": "555-191-8131",
       "ethnicity": "Caucasian",
-      "address": "32 Pine St., Sacramento, CA 95820",
+      "address": "716 Waller Road, Brentwood, TN 37027",
       "income": "49000",
       "education": "1",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "unitedHealth_group"
     },
     {
       "email": "elizabeth.martin@email.com",
@@ -645,10 +694,11 @@
       "DoB": "1990-02-14",
       "phone_number": "555-201-9132",
       "ethnicity": "Caucasian",
-      "address": "651 South Brickell St., Naples, FL 34116",
+      "address": "416 McIver Street, Nashville, TN 37211",
       "income": "15000",
       "education": "6",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "blue_cross_blue_shield_association"
     },
     {
       "email": "david.anderson@email.com",
@@ -658,10 +708,11 @@
       "DoB": "1993-08-22",
       "phone_number": "555-211-0133",
       "ethnicity": "Hispanic",
-      "address": "7853 Water Avenue, Oak Lawn, IL 60453",
+      "address": "1508 Massachusetts Avenue Southeast, Washington, DC 20003",
       "income": "122000",
       "education": "4",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "anthem_inc"
     },
     {
       "email": "maria.thomas@email.com",
@@ -671,10 +722,11 @@
       "DoB": "1992-05-06",
       "phone_number": "555-221-1134",
       "ethnicity": "Hispanic",
-      "address": "7537 Van Dyke Ave., Naugatuck, CT 06770",
+      "address": "5615 West Villa Maria Drive, Glendale, AZ 85308",
       "income": "41000",
       "education": "3",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "kaiser_permanente"
     },
     {
       "email": "charles.jackson@email.com",
@@ -684,10 +736,11 @@
       "DoB": "1987-03-17",
       "phone_number": "555-231-2135",
       "ethnicity": "African-American",
-      "address": "13 Vernon Rd., Springboro, OH 45066",
+      "address": "3162 Martin Luther King Junior Boulevard, Fayetteville, AR 72704",
       "income": "6000",
       "education": "5",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "molina_healthcare"
     },
     {
       "email": "cynthia.moore@email.com",
@@ -697,10 +750,11 @@
       "DoB": "1989-11-30",
       "phone_number": "555-241-3136",
       "ethnicity": "Asian",
-      "address": "876 Berkshire St., Oxon Hill, MD 20745",
+      "address": "5306 Ritchie Highway, Baltimore, MD 21225",
       "income": "13000",
       "education": "2",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "unitedHealth_group"
     },
     {
       "email": "joseph.taylor@email.com",
@@ -710,10 +764,11 @@
       "DoB": "1984-09-05",
       "phone_number": "555-251-4137",
       "ethnicity": "Caucasian",
-      "address": "84 Glen Ridge Lane, Franklin, MA 02038",
+      "address": "109 Summit Street, Burlington, VT 05401",
       "income": "132000",
       "education": "6",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "cigna"
     },
     {
       "email": "sarah.lee@email.com",
@@ -723,10 +778,11 @@
       "DoB": "1991-07-20",
       "phone_number": "555-261-5138",
       "ethnicity": "Asian",
-      "address": "91 Goldfield Lane, Palm City, FL 34990",
+      "address": "816 West 19th Avenue, Anchorage, AK 99503",
       "income": "26000",
       "education": "1",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "health_care_service_corporation"
     },
     {
       "email": "ryan.wilson@email.com",
@@ -736,10 +792,11 @@
       "DoB": "1985-10-11",
       "phone_number": "555-271-6139",
       "ethnicity": "Caucasian",
-      "address": "7882 Arlington St., Howard Beach, NY 11414",
+      "address": "172 Alburg Springs Road, Alburgh, VT 05440",
       "income": "24000",
       "education": "3",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "unitedHealth_group"
     },
     {
       "email": "laura.harris@email.com",
@@ -749,10 +806,11 @@
       "DoB": "1978-12-19",
       "phone_number": "555-281-7140",
       "ethnicity": "African-American",
-      "address": "73 Surrey Ave., Roseville, MI 48066",
+      "address": "159 Downey Drive, Manchester, CT 06040",
       "income": "21000",
       "education": "4",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "blue_cross_blue_shield_association"
     },
     {
       "email": "kevin.martin@email.com",
@@ -762,10 +820,11 @@
       "DoB": "1980-01-29",
       "phone_number": "555-291-8141",
       "ethnicity": "Caucasian",
-      "address": "9564 Prince Ave., Hephzibah, GA 30815",
+      "address": "125 John Street, Santa Cruz, CA 95060",
       "income": "58000",
       "education": "2",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "kaiser_permanente"
     },
     {
       "email": "diana.evans@email.com",
@@ -775,10 +834,11 @@
       "DoB": "1995-04-15",
       "phone_number": "555-301-9142",
       "ethnicity": "Hispanic",
-      "address": "821 W. Brown Street, Hinesville, GA 31313",
+      "address": "1101 Lotus Avenue, Glen Burnie, MD 21061",
       "income": "56000",
       "education": "5",
-      "preferred_transportation": "transit"
+      "preferred_transportation": "transit",
+      "insurance": "cigna"
     },
     {
       "email": "brian.white@email.com",
@@ -788,10 +848,11 @@
       "DoB": "1989-06-24",
       "phone_number": "555-311-0143",
       "ethnicity": "Caucasian",
-      "address": "678 Mountainview Drive, Iowa City, IA 52240",
+      "address": "8376 Albacore Drive, Pasadena, MD 21122",
       "income": "57000",
       "education": "1",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "blue_cross_blue_shield_association"
     },
     {
       "email": "julie.clark@email.com",
@@ -801,10 +862,11 @@
       "DoB": "1986-08-03",
       "phone_number": "555-321-1144",
       "ethnicity": "Asian",
-      "address": "9781 53rd Dr., Alabaster, AL 35007",
+      "address": "491 Arabian Way, Grand Junction, CO 81504",
       "income": "155000",
       "education": "6",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "unitedHealth_group"
     },
     {
       "email": "gary.thomas@email.com",
@@ -814,10 +876,11 @@
       "DoB": "1982-09-12",
       "phone_number": "555-331-2145",
       "ethnicity": "Caucasian",
-      "address": "17 Bridgeton Drive, Rockville, MD 20850",
+      "address": "12245 West 71st Place, Arvada, CO 80004",
       "income": "43000",
       "education": "3",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "aetna"
     },
     {
       "email": "amanda.jackson@email.com",
@@ -827,10 +890,11 @@
       "DoB": "1983-11-21",
       "phone_number": "555-341-3146",
       "ethnicity": "Hispanic",
-      "address": "51 W. Lake View Dr., Fitchburg, MA 01420",
+      "address": "80 North East Street, Holyoke, MA 01040",
       "income": "126000",
       "education": "2",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "blue_cross_blue_shield_association"
     },
     {
       "email": "james.taylor@email.com",
@@ -840,10 +904,11 @@
       "DoB": "1976-12-30",
       "phone_number": "555-351-4147",
       "ethnicity": "African-American",
-      "address": "88 W. Vine Road, Beckley, WV 25801",
+      "address": "4695 East Huntsville Road, Fayetteville, AR 72701",
       "income": "64000",
       "education": "4",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "health_care_service_corporation"
     },
     {
       "email": "patricia.wilson@email.com",
@@ -853,10 +918,11 @@
       "DoB": "1989-02-08",
       "phone_number": "555-361-5148",
       "ethnicity": "Caucasian",
-      "address": "9410 Newcastle Street, Butte, MT 59701",
+      "address": "310 Timrod Road, Manchester, CT 06040",
       "income": "62000",
       "education": "5",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "molina_healthcare"
     },
     {
       "email": "daniel.harris@email.com",
@@ -866,10 +932,11 @@
       "DoB": "1988-03-18",
       "phone_number": "555-371-6149",
       "ethnicity": "Hispanic",
-      "address": "11 Selby Street, New Baltimore, MI 48047",
+      "address": "1364 Capri Drive, Panama City, FL 32405",
       "income": "15000",
       "education": "1",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "health_care_service_corporation"
     },
     {
       "email": "nancy.martin@email.com",
@@ -879,10 +946,11 @@
       "DoB": "1994-05-27",
       "phone_number": "555-381-7150",
       "ethnicity": "Asian",
-      "address": "651 Oakwood Court, Hackensack, NJ 07601",
+      "address": "132 Laurel Green Court, Savannah, GA 31419",
       "income": "9000",
       "education": "6",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "humana"
     },
     {
       "email": "jason.evans@email.com",
@@ -892,10 +960,11 @@
       "DoB": "1982-07-06",
       "phone_number": "555-391-8151",
       "ethnicity": "Caucasian",
-      "address": "7197 Dogwood Lane, West Hempstead, NY 11552",
+      "address": "6657 West Rose Garden Lane, Glendale, AZ 85308",
       "income": "81000",
       "education": "3",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "health_care_service_corporation"
     },
     {
       "email": "linda.white@email.com",
@@ -905,10 +974,11 @@
       "DoB": "1981-08-15",
       "phone_number": "555-401-9152",
       "ethnicity": "African-American",
-      "address": "881 North Circle, Elizabeth, NJ 07202",
+      "address": "519 West 75th Avenue, Anchorage, AK 99518",
       "income": "47000",
       "education": "4",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "centene_corporation"
     },
     {
       "email": "robert.clark@email.com",
@@ -918,10 +988,11 @@
       "DoB": "1983-09-23",
       "phone_number": "555-412-9253",
       "ethnicity": "Hispanic",
-      "address": "9999 South Orchard St., Acworth, GA 30101",
+      "address": "31353 Santa Elena Way, Union City, CA 94587",
       "income": "144000",
       "education": "2",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "centene_corporation"
     },
     {
       "email": "michelle.thomas@email.com",
@@ -931,10 +1002,11 @@
       "DoB": "1984-10-02",
       "phone_number": "555-423-9354",
       "ethnicity": "Caucasian",
-      "address": "264 Park Ave., Bel Air, MD 21014",
+      "address": "8398 West Denton Lane, Glendale, AZ 85305",
       "income": "49000",
       "education": "5",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "centene_corporation"
     },
     {
       "email": "steven.jackson@email.com",
@@ -944,10 +1016,11 @@
       "DoB": "1978-11-10",
       "phone_number": "555-434-9455",
       "ethnicity": "Asian",
-      "address": "12 W. Strawberry St., Ocean Springs, MS 39564",
+      "address": "700 Winston Place, Anchorage, AK 99504",
       "income": "88000",
       "education": "1",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "unitedHealth_group"
     },
     {
       "email": "lisa.taylor@email.com",
@@ -957,10 +1030,11 @@
       "DoB": "1987-01-19",
       "phone_number": "555-445-9556",
       "ethnicity": "Hispanic",
-      "address": "64 Bayport Street, Warminster, PA 18974",
+      "address": "232 Maine Avenue, Panama City, FL 32401",
       "income": "38000",
       "education": "6",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "unitedHealth_group"
     },
     {
       "email": "mark.wilson@email.com",
@@ -970,10 +1044,11 @@
       "DoB": "1989-02-27",
       "phone_number": "555-456-9657",
       "ethnicity": "Caucasian",
-      "address": "799 University Road, Sewell, NJ 08080",
+      "address": "1 Kempf Drive, Easton, MA 02375",
       "income": "19000",
       "education": "3",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "centene_corporation"
     },
     {
       "email": "jennifer.harris@email.com",
@@ -983,10 +1058,11 @@
       "DoB": "1985-04-08",
       "phone_number": "555-467-9758",
       "ethnicity": "African-American",
-      "address": "24 Sleepy Hollow Court, Waterloo, IA 50701",
+      "address": "5811 Crossings Boulevard, Nashville, TN 37013",
       "income": "5000",
       "education": "4",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "centene_corporation"
     },
     {
       "email": "andrew.martin@email.com",
@@ -996,10 +1072,11 @@
       "DoB": "1980-05-17",
       "phone_number": "555-478-9859",
       "ethnicity": "Asian",
-      "address": "77 West Vernon Rd., East Lansing, MI 48823",
+      "address": "5108 Franklin Street, Savannah, GA 31405",
       "income": "133000",
       "education": "2",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "kaiser_permanente"
     },
     {
       "email": "thomas.king@email.com",
@@ -1009,10 +1086,11 @@
       "DoB": "1993-06-07",
       "phone_number": "555-489-9950",
       "ethnicity": "Caucasian",
-      "address": "8 W. Armstrong Street, Miami, FL 33125",
+      "address": "913 Fallview Trail, Nashville, TN 37211",
       "income": "27000",
       "education": "5",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "centene_corporation"
     },
     {
       "email": "emma.hall@email.com",
@@ -1022,10 +1100,11 @@
       "DoB": "1991-09-15",
       "phone_number": "555-490-0051",
       "ethnicity": "Hispanic",
-      "address": "7563 East Vale Drive, Lancaster, NY 14086",
+      "address": "270 Chrissy's Court, , VT 05443",
       "income": "11000",
       "education": "1",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "blue_cross_blue_shield_association"
     },
     {
       "email": "christopher.scott@email.com",
@@ -1035,10 +1114,11 @@
       "DoB": "1988-07-23",
       "phone_number": "555-501-0152",
       "ethnicity": "African-American",
-      "address": "17 Madison Drive, Littleton, CO 80123",
+      "address": "130 Old Route 103, Chester, VT 05143",
       "income": "35000",
       "education": "6",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "cigna"
     },
     {
       "email": "olivia.young@email.com",
@@ -1048,10 +1128,11 @@
       "DoB": "1987-12-01",
       "phone_number": "555-512-0253",
       "ethnicity": "Asian",
-      "address": "791 Cottage Rd., Butler, PA 16001",
+      "address": "10826 Pointe Royal Drive, Bakersfield, CA 93311",
       "income": "39000",
       "education": "4",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "humana"
     },
     {
       "email": "joshua.adams@email.com",
@@ -1061,10 +1142,11 @@
       "DoB": "1984-10-10",
       "phone_number": "555-523-0354",
       "ethnicity": "Caucasian",
-      "address": "9861 Hilldale Dr., Twin Falls, ID 83301",
+      "address": "74 Ranch Drive, Montgomery, AL 36109",
       "income": "16000",
       "education": "3",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "aetna"
     },
     {
       "email": "nicole.campbell@email.com",
@@ -1074,10 +1156,11 @@
       "DoB": "1986-03-18",
       "phone_number": "555-534-0455",
       "ethnicity": "Hispanic",
-      "address": "194 Willow St., Massapequa, NY 11758",
+      "address": "6601 West Ocotillo Road, Glendale, AZ 85301",
       "income": "92000",
       "education": "5",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "molina_healthcare"
     },
     {
       "email": "brandon.phillips@email.com",
@@ -1087,10 +1170,11 @@
       "DoB": "1982-05-27",
       "phone_number": "555-545-0556",
       "ethnicity": "African-American",
-      "address": "7609 Hanover Lane, Camas, WA 98607",
+      "address": "19416 Barclay Road, Castro Valley, CA 94546",
       "income": "5000",
       "education": "2",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "aetna"
     },
     {
       "email": "katherine.turner@email.com",
@@ -1100,10 +1184,11 @@
       "DoB": "1990-08-04",
       "phone_number": "555-556-0657",
       "ethnicity": "Caucasian",
-      "address": "9648 Campfire Road, Covington, GA 30014",
+      "address": "1347 Blackwalnut Court, Annapolis, MD 21403",
       "income": "47000",
       "education": "6",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "humana"
     },
     {
       "email": "zachary.parker@email.com",
@@ -1113,10 +1198,11 @@
       "DoB": "1989-11-12",
       "phone_number": "555-567-0758",
       "ethnicity": "Asian",
-      "address": "343 6th Avenue, Apt J, San Diego, CA 92111",
+      "address": "1770 Colony Way, Fayetteville, AR 72704",
       "income": "119000",
       "education": "1",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "health_care_service_corporation"
     },
     {
       "email": "stephanie.collins@email.com",
@@ -1126,10 +1212,11 @@
       "DoB": "1992-01-21",
       "phone_number": "555-578-0859",
       "ethnicity": "Hispanic",
-      "address": "7250 West Cedarwood Ave., Scotch Plains, NJ 07076",
+      "address": "165 Saint John Street, Manchester, CT 06040",
       "income": "8000",
       "education": "4",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "unitedHealth_group"
     },
     {
       "email": "kyle.lee@email.com",
@@ -1139,10 +1226,11 @@
       "DoB": "1994-04-01",
       "phone_number": "555-589-0950",
       "ethnicity": "Caucasian",
-      "address": "401 Hill Field Ave., Moorhead, MN 56560",
+      "address": "2409 Research Boulevard, Fort Collins, CO 80526",
       "income": "67000",
       "education": "3",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "anthem_inc"
     },
     {
       "email": "heather.edwards@email.com",
@@ -1152,10 +1240,11 @@
       "DoB": "1987-06-10",
       "phone_number": "555-590-1051",
       "ethnicity": "African-American",
-      "address": "62 Old Poor House St., Lawrence, MA 01841",
+      "address": "1903 Bashford Manor Lane, Louisville, KY 40218",
       "income": "22000",
       "education": "2",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "aetna"
     },
     {
       "email": "eric.mitchell@email.com",
@@ -1165,10 +1254,11 @@
       "DoB": "1991-08-19",
       "phone_number": "555-601-1152",
       "ethnicity": "Hispanic",
-      "address": "313 Crescent Court, Pearl, MS 39208",
+      "address": "8315 Surf Drive, Panama City Beach, FL 32408",
       "income": "75000",
       "education": "5",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "centene_corporation"
     },
     {
       "email": "megan.perez@email.com",
@@ -1178,10 +1268,11 @@
       "DoB": "1985-10-28",
       "phone_number": "555-612-1253",
       "ethnicity": "Asian",
-      "address": "588 Liberty Street, Lutherville Timonium, MD 21093",
+      "address": "3301 Old Muldoon Road, Anchorage, AK 99504",
       "income": "70000",
       "education": "1",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "cigna"
     },
     {
       "email": "jeffery.nelson@email.com",
@@ -1191,10 +1282,11 @@
       "DoB": "1983-01-06",
       "phone_number": "555-623-1354",
       "ethnicity": "Caucasian",
-      "address": "8690 Mulberry St., Upland, CA 91784",
+      "address": "8800 Cordell Circle, Anchorage, AK 99502",
       "income": "13000",
       "education": "6",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "cigna"
     },
     {
       "email": "lauren.roberts@email.com",
@@ -1204,10 +1296,11 @@
       "DoB": "1988-03-17",
       "phone_number": "555-634-1455",
       "ethnicity": "Hispanic",
-      "address": "287 Peninsula Avenue, Greenville, NC 27834",
+      "address": "117 East Cook Avenue, Anchorage, AK 99501",
       "income": "54000",
       "education": "4",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "cigna"
     },
     {
       "email": "aaron.carter@email.com",
@@ -1217,10 +1310,11 @@
       "DoB": "1990-05-26",
       "phone_number": "554-578-0859",
       "ethnicity": "African-American",
-      "address": "162 Williams Dr., Front Royal, VA 22630",
+      "address": "6231 North 67th Avenue, Glendale, AZ 85301",
       "income": "14000",
       "education": "3",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "health_care_service_corporation"
     },
     {
       "email": "kelly.phillips@email.com",
@@ -1230,10 +1324,11 @@
       "DoB": "1989-08-04",
       "phone_number": "554-589-0950",
       "ethnicity": "Caucasian",
-      "address": "7276 W. Manchester Avenue, Nashua, NH 03060",
+      "address": "8505 Waters Avenue, Savannah, GA 31406",
       "income": "10000",
       "education": "5",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "unitedHealth_group"
     },
     {
       "email": "jacob.moore@email.com",
@@ -1243,10 +1338,11 @@
       "DoB": "1982-10-13",
       "phone_number": "554-590-1051",
       "ethnicity": "Asian",
-      "address": "8040 Sleepy Hollow St., Lebanon, PA 17042",
+      "address": "7 Underwood Place Northwest, Washington, DC 20012",
       "income": "16000",
       "education": "2",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "anthem_inc"
     },
     {
       "email": "rachel.anderson@email.com",
@@ -1256,10 +1352,11 @@
       "DoB": "1996-12-22",
       "phone_number": "554-601-1152",
       "ethnicity": "Hispanic",
-      "address": "417 West Hamilton Rd., Blacksburg, VA 24060",
+      "address": "21950 Arnold Center Road, Carson, CA 90810",
       "income": "94000",
       "education": "6",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "health_care_service_corporation"
     },
     {
       "email": "tyler.thompson@email.com",
@@ -1269,10 +1366,11 @@
       "DoB": "1995-03-02",
       "phone_number": "554-612-1253",
       "ethnicity": "Caucasian",
-      "address": "840 Oak Meadow St., Evans, GA 30809",
+      "address": "1427 South Carolina Avenue Southeast, Washington, DC 20003",
       "income": "23000",
       "education": "1",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "molina_healthcare"
     },
     {
       "email": "diana.murphy@email.com",
@@ -1282,10 +1380,11 @@
       "DoB": "1984-05-11",
       "phone_number": "545-623-1354",
       "ethnicity": "African-American",
-      "address": "35 Smoky Hollow Street, Prattville, AL 36067",
+      "address": "1420 Turtleback Trail, Panama City, FL 32413",
       "income": "23000",
       "education": "4",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "centene_corporation"
     },
     {
       "email": "jeremy.gonzalez@email.com",
@@ -1295,42 +1394,43 @@
       "DoB": "1986-07-20",
       "phone_number": "554-634-1455",
       "ethnicity": "Hispanic",
-      "address": "60 Griffin Drive, Phoenixville, PA 19460",
+      "address": "6990 Pierson Street, Arvada, CO 80004",
       "income": "11000",
       "education": "3",
-      "preferred_transportation": "driving"
+      "preferred_transportation": "driving",
+      "insurance": "centene_corporation"
     }
   ],
-  "Insurance _types": [
+  "Insurance_Data": [
     {
-      "Insurance Types:": "cigna"
+      "name": "cigna"
     },
     {
-      "Insurance Types:": "unitedHealth_group"
+      "name": "unitedHealth_group"
     },
     {
-      "Insurance Types:": "aetna"
+      "name": "aetna"
     },
     {
-      "Insurance Types:": "humana"
+      "name": "humana"
     },
     {
-      "Insurance Types:": "anthem_inc"
+      "name": "anthem_inc"
     },
     {
-      "Insurance Types:": "blue_cross_blue_shield_association"
+      "name": "blue_cross_blue_shield_association"
     },
     {
-      "Insurance Types:": "kaiser_permanente"
+      "name": "kaiser_permanente"
     },
     {
-      "Insurance Types:": "molina_healthcare"
+      "name": "molina_healthcare"
     },
     {
-      "Insurance Types:": "centene_corporation"
+      "name": "centene_corporation"
     },
     {
-      "Insurance Types:": "health_care_service_corporation"
+      "name": "health_care_service_corporation"
     }
   ],
   "Center_Data": [
@@ -1339,644 +1439,736 @@
       "address": "747 52nd St, Oakland, CA 94609",
       "type": "whole_life",
       "website": "https://www.ucsfbenioffchildrens.org/clinics/sickle-cell-anemia-center",
-      "reviews": "2.7"
+      "reviews": "2.7",
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, molina_healthcare"
     },
     {
       "name": "Boston Children's Health Physicians",
       "address": "19 Bradhurst Av., Hawthorne, NY 10532",
       "type": "pediatric",
       "website": "https://www.childrenshospital.org/bchp/specialty/pediatric-hematology-oncology-stem-cell-transplantation",
-      "reviews": "3.4"
+      "reviews": "3.4",
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, centene_corporation"
     },
     {
       "name": "Children's Hospital of Richmond at VCU",
       "address": "1000 East Broad Streen, Richmond, VA 23219",
       "type": "pediatric",
       "website": "https://www.chrichmond.org/services/hematology-and-oncology/specialty-programs-and-clinics/sickle-cell-program",
-      "reviews": "4.2"
+      "reviews": "4.2",
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, health_care_service_corporation"
     },
     {
       "name": "Advocate Children's Hospital",
       "address": "4440 W 95th Street, Oak Lawn, IL 60453",
       "type": "pediatric",
       "website": "www.advocatechildrenshospital.com/services/blood-disorders/blood-disorders-we-treat/sickle-cell-disease",
-      "reviews": "1.8"
+      "reviews": "1.8",
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, molina_healthcare, centene_corporation"
     },
     {
       "name": "Mayo Clinic",
       "address": "200 1st ST SW, Rochester, MN 55901",
       "type": "pediatric",
       "website": "https://www.mayoclinic.org/medical-professionals/pediatrics/news/multidisciplinary-sickle-cell-program-including-curative-bone-marrow-transplant/mac-20525836",
-      "reviews": "2.3"
+      "reviews": "2.3",
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, molina_healthcare, health_care_service_corporation"
     },
     {
       "name": "Harvard Brigham and Women's Comprehensive Sickle Cell Center",
       "address": "Division of Hematology, Brigham and Women's Hospital, 75 Francis Street, Boston, MA 2115",
       "type": "adult",
       "website": "www.brighamandwomens.org/medicine/hematology/overview",
-      "reviews": "4.5"
+      "reviews": "4.5",
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, centene_corporation, health_care_service_corporation"
     },
     {
       "name": "University of Rochester Pediatric Sickle Cell Program",
       "address": "601 Elmwood Avenue, Rochester, NY 14642",
       "type": "pediatric",
       "website": "https://www.urmc.rochester.edu/childrens-hospital/hemonc.aspx",
-      "reviews": "3.1"
+      "reviews": "3.1",
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, kaiser_permanente, molina_healthcare, centene_corporation"
     },
     {
       "name": "University of California Irvine/Chao Family Comprehensive Cancer Center",
       "address": "101 The City Drive South, Orange, CA 92868",
       "type": "adult",
       "website": "www.ucihealth.com",
-      "reviews": "1.5"
+      "reviews": "1.5",
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, kaiser_permanente, molina_healthcare, health_care_service_corporation"
     },
     {
       "name": "Nemours Children's Health Jacksonville",
       "address": "807 Children's Way, Jacksonville, FL 32223",
       "type": "pediatric",
       "website": "https://www.nemours.org/services/sickle-cell-disease.html",
-      "reviews": "4.8"
+      "reviews": "4.8",
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, kaiser_permanente, centene_corporation, health_care_service_corporation"
     },
     {
       "name": "University of Maryland Medical Center",
       "address": "22 S. Greene St, Baltimore, MD 21201",
       "type": "adult",
       "website": "https://www.umms.org/ummc/health-services/hematology/sickle-cell-anemia",
-      "reviews": "2.9"
+      "reviews": "2.9",
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, molina_healthcare, centene_corporation, health_care_service_corporation"
     },
     {
       "name": "Loma Linda Children's Hospital",
       "address": "11175 Campus Street, Loma Linda, CA 92354",
       "type": "pediatric",
       "website": "https://lluch.org/conditions/sickle-cell-disease-children",
-      "reviews": "1.2"
+      "reviews": "1.2",
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, blue_cross_blue_shield_association, kaiser_permanente, molina_healthcare, centene_corporation"
     },
     {
       "name": "The Sickle Cell Center of Levine Cancer Institute",
       "address": "1021 Morehead Medical Dr., Building II Suite 50100, Charlotte, NC 28204",
       "type": "adult",
       "website": "https://atriumhealth.org/medical-services/specialty-care/cancer-care/sickle-cell-disease",
-      "reviews": "3.8"
+      "reviews": "3.8",
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, blue_cross_blue_shield_association, kaiser_permanente, molina_healthcare, health_care_service_corporation"
     },
     {
       "name": "University of Illinois at Chicago (UIC) Sickle Cell Center",
       "address": "840 S. Wood St. Suite 172, Chicago, IL 60162",
       "type": "whole_life",
       "website": "https://hospital.uillinois.edu/primary-and-specialty-care/sickle-cell",
-      "reviews": "4"
+      "reviews": "4",
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, blue_cross_blue_shield_association, kaiser_permanente, centene_corporation, health_care_service_corporation"
     },
     {
       "name": "Children's Blood and Cancer Center at Dell Children's Medical Center",
       "address": "4910 Mueller Boulevard Ste 200, Austin, TX 78723",
       "type": "pediatric",
       "website": "https://healthcare.ascension.org/locations/texas/txaus/dcmc/departments-and-services/departments/pediatric-blood-and-cancer",
-      "reviews": "2.6"
+      "reviews": "2.6",
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, blue_cross_blue_shield_association, molina_healthcare, centene_corporation, health_care_service_corporation"
     },
     {
       "name": "Foundation for Sickle Cell Disease Research",
       "address": "1685 S. University Drive, Unit 4, Hollywood, FL 33023",
       "type": "whole_life",
       "website": "https://fscdr.org",
-      "reviews": "3.7"
+      "reviews": "3.7",
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, kaiser_permanente, molina_healthcare, centene_corporation, health_care_service_corporation"
     },
     {
       "name": "Sickle Cell Program at the Center for Special Health Care Needs",
       "address": "501 West 14th Street, Wilmington, DE 19801",
       "type": "adult",
       "website": "https://christianacare.org/services/primarycare/center-special-health-care-needs-primary-care/",
-      "reviews": "1.6"
+      "reviews": "1.6",
+      "insurances": "cigna, unitedHealth_group, aetna, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, molina_healthcare, centene_corporation"
     },
     {
       "name": "New England Sickle Cell Institute",
       "address": "263 FARMINGTON AVE, UCONN HEALTH, Farmington, CT 6030",
       "type": "adult",
       "website": "https://health.uconn.edu/cancer/patient-services/centers-and-interdisciplinary-clinics/new-england-sickle-cell-institute/",
-      "reviews": "4.3"
+      "reviews": "4.3",
+      "insurances": "cigna, unitedHealth_group, aetna, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, molina_healthcare, health_care_service_corporation"
     },
     {
       "name": "Center for Excellence in Sickle Cell Disease at Boston University/Boston Medical Center",
       "address": "72 East Concord Street R-304, Boston, MA 2118",
       "type": "whole_life",
       "website": "https://www.bmc.org/sickle-cell-disease",
-      "reviews": "2.1"
+      "reviews": "2.1",
+      "insurances": "cigna, unitedHealth_group, aetna, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, centene_corporation, health_care_service_corporation"
     },
     {
       "name": "University of Cincinnati Medical Center",
       "address": "3120 Burnet Ave, Suite 202, Cincinnati, OH 45229",
       "type": "adult",
       "website": "https://www.uchealth.com/university-of-cincinnati-medical-center/services/adult-sickle-cell-center/",
-      "reviews": "3.2"
+      "reviews": "3.2",
+      "insurances": "cigna, unitedHealth_group, aetna, anthem_inc, blue_cross_blue_shield_association, molina_healthcare, centene_corporation, health_care_service_corporation"
     },
     {
       "name": "University of Alabama Pediatric Sickle Cell Comprehensive Lifespan Center",
       "address": "1600 7th Ave S, Birmingham, AL 35233",
       "type": "whole_life",
       "website": "https://www.uab.edu/medicine/sicklecell/",
-      "reviews": "4.9"
+      "reviews": "4.9",
+      "insurances": "cigna, unitedHealth_group, aetna, anthem_inc, kaiser_permanente, molina_healthcare, centene_corporation, health_care_service_corporation"
     },
     {
       "name": "Children's National Hospital Comprehensive Sickle Cell Program",
       "address": "Center for Cancer and Blood Disorders, 111 Michigan Avenue, Washington, DC 20010",
       "type": "pediatric",
       "website": "https://childrensnational.org/departments/center-for-cancer-and-blood-disorders/programs-and-services/blood-disorders/programs-and-services/sickle-cell-disease-program",
-      "reviews": "1.9"
+      "reviews": "1.9",
+      "insurances": "cigna, unitedHealth_group, aetna, anthem_inc, kaiser_permanente, centene_corporation, health_care_service_corporation, molina_healthcare"
     },
     {
       "name": "South Texas Comprehensive Sickle Cell Program",
       "address": "UTHealth Long School of Medicine, 7703 Floyd Curl Dr, MSC 7810, San Antonio, TX 78229",
       "type": "pediatric",
       "website": "https://lsom.uthscsa.edu/pediatrics/divisions/hematology-oncology/clinical-programs/south-texas-comprehensive-sickle-cell-program/",
-      "reviews": "3.9"
+      "reviews": "3.9",
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, kaiser_permanente, molina_healthcare, centene_corporation, health_care_service_corporation"
     },
     {
       "name": "Dana-Farber / Boston Children's Cancer & Blood Disorders Center",
       "address": "300 Longwood Ave., Boston, MA 2115",
       "type": "pediatric",
       "website": "https://www.danafarberbostonchildrens.org/",
-      "reviews": "2.5"
+      "reviews": "2.5",
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, centene_corporation"
     },
     {
       "name": "Uninversity of Florida Adult Sickle Cell Program",
       "address": "1600 SW Archer Road PO Box 100278, Gainesville, FL 32610",
       "type": "adult",
       "website": "https://hemonc.medicine.ufl.edu/patient-care/benign-hematology/sickle-cell-disease-program/",
-      "reviews": "4.7"
+      "reviews": "4.7",
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, health_care_service_corporation"
     },
     {
       "name": "Comprehensive Pediatric Sickle Cell Center",
       "address": "530 NE Glen Oak, Peoria, IL 61637",
       "type": "pediatric",
       "website": "https://www.osfhealthcare.org/practices/40/1472/osf-childrens-hospital-of-illinois-sickle-cell-clinic/",
-      "reviews": "1.3"
+      "reviews": "1.3",
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, molina_healthcare, centene_corporation"
     },
     {
       "name": "University of Miami/Jackson Memorial Hospital",
       "address": "1475 NW 12th Ave, Miami, FL 33136",
       "type": "adult",
       "website": "https://umiamihealth.org/en/treatments-and-services/hematology/sickle-cell-disease",
-      "reviews": "3.6"
+      "reviews": "3.6",
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, molina_healthcare, health_care_service_corporation"
     },
     {
       "name": "Lifespan Sickle Cell Program of Rhode Island",
       "address": "593 Eddy Street, Providence, RI 2905",
       "type": "whole_life",
       "website": "https://www.lifespan.org/centers-services/pediatric-hematologyoncology/our-programs/sickle-cell-program",
-      "reviews": "2.2"
+      "reviews": "2.2",
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, kaiser_permanente, centene_corporation, health_care_service_corporation"
     },
     {
       "name": "Oregon Health and Science University",
       "address": "3181 S.W. SAM JACKSON PARK RD Mailstop CDRCP, Portland, OR 97201",
       "type": "pediatric",
       "website": "https://www.ohsu.edu/doernbecher/pediatric-blood-disorders",
-      "reviews": "4.4"
+      "reviews": "4.4",
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, blue_cross_blue_shield_association, kaiser_permanente, centene_corporation, health_care_service_corporation"
     },
     {
       "name": "Cleveland Clinic",
       "address": "8950 Euclid Ave, Cleveland, OH 44070",
       "type": "whole_life",
       "website": "https://my.clevelandclinic.org/health/diseases/12100-sickle-cell-disease",
-      "reviews": "3.5"
+      "reviews": "3.5",
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, blue_cross_blue_shield_association, molina_healthcare, centene_corporation, health_care_service_corporation"
     },
     {
       "name": "Inova Schar Adult Sickle Cell Center",
       "address": "8081 Innovation Park Drive; 4th floor Skyline Clinic, Fairfax, VA 22031",
       "type": "adult",
       "website": "https://www.inova.org/locations/inova-hematology-oncology",
-      "reviews": "1.4"
+      "reviews": "1.4",
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, kaiser_permanente, centene_corporation, health_care_service_corporation, molina_healthcare"
     },
     {
       "name": "LSU Ochsner Health Sciences Center/Feist Weiller Cancer Center",
       "address": "1501 Kings Hwy, Shreveport, LA 71103",
       "type": "adult",
       "website": "https://www.lsuhs.edu/centers/feist-weiller-cancer-center/patients/patient-guide/sickle-cell-disease",
-      "reviews": "4.1"
+      "reviews": "4.1",
+      "insurances": "cigna, unitedHealth_group, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, molina"
     },
     {
       "name": "Brody School of Medicine at ECU - Adult Sickle Cell Clinic",
       "address": "4W 54 Brody Building 600 Moye Blvd, Greenville, NC 27834",
       "type": "adult",
       "website": "https://ecuphysicians.ecu.edu/sickle-cell/",
-      "reviews": "2.4"
+      "reviews": "2.4",
+      "insurances": "cigna, Humana, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, molina_healthcare, centene_corporation, health_care_service_corporation"
     },
     {
       "name": "University of Minnesota/Masonic Cancer Clinic",
       "address": "909 Fulton St SE, Minneapolis, MN 55455",
       "type": "adult",
       "website": "https://www.mhealthfairview.org/locations/M-Health-Fairview-Masonic-Cancer-Clinic",
-      "reviews": "3.3"
+      "reviews": "3.3",
+      "insurances": "unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, molina_healthcare, centene_corporation"
     },
     {
       "name": "Children's Minnesota",
       "address": "2530 Chicago Ave S, Minneapolis, MN 55404",
       "type": "pediatric",
       "website": "https://www.childrensmn.org/services/care-specialties-departments/cancer-blood-disorders/conditions-and-services/blood-disorders-services/hemoglobinopathy-sickle-cell/sickle-cell/",
-      "reviews": "1.7"
+      "reviews": "1.7",
+      "insurances": "unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, molina_healthcare, health_care_service_corporation"
     },
     {
       "name": "Rush University Medical Center",
       "address": "1725 W Harrison Street Ste 809, Chicago, IL 60661",
       "type": "adult",
       "website": "https://www.rush.edu/services/cancer-care",
-      "reviews": "4.6"
+      "reviews": "4.6",
+      "insurances": "unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, centene_corporation, health_care_service_corporation"
     },
     {
       "name": "University of South Alabama",
       "address": "1601 Center street, Suite 1280, Mobile, AL 36604",
       "type": "pediatric",
       "website": "https://www.usahealthsystem.com/services/pediatric-sickle-cell-care",
-      "reviews": "2.8"
+      "reviews": "2.8",
+      "insurances": "unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, molina_healthcare, centene_corporation, health_care_service_corporation"
     },
     {
       "name": "Columbia University Irving Medical Center/Children's Hospital of New York-Presbyterian",
       "address": "161 Fort Washington Avenue, New York, NY 10032",
       "type": "pediatric",
       "website": "https://www.columbiadoctors.org/childrens-health/pediatric-specialties/cancer-blood-disorders/innovative-programs-services/sickle-cell-disease",
-      "reviews": "3"
+      "reviews": "3",
+      "insurances": "unitedHealth_group, aetna, Humana, anthem_inc, kaiser_permanente, molina_healthcare, centene_corporation, health_care_service_corporation"
     },
     {
       "name": "Cincinnati Comprehensive Sickle Cell Center",
       "address": "3333 Burnet Ave, Cincinnati, OH 45229",
       "type": "pediatric",
       "website": "www.cincinnatichildrens.org/service/s/sickle-cell",
-      "reviews": "1.1"
+      "reviews": "1.1",
+      "insurances": "unitedHealth_group, aetna, Humana, blue_cross_blue_shield_association, kaiser_permanente, molina_healthcare, centene_corporation, health_care_service_corporation"
     },
     {
       "name": "Phoenix Children's Hospital",
       "address": "1919 E Thomas Road, Phoenix, AZ 85016",
       "type": "whole_life",
       "website": "https://phoenixchildrens.org/centers-programs/sickle-cell?gclid=EAIaIQobChMI1f3z5_fb-gIVrSutBh0IgALXEAAYASAAEgJSCfD_BwE&gclsrc=aw.ds",
-      "reviews": "4.8"
+      "reviews": "4.8",
+      "insurances": "unitedHealth_group, aetna, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, molina_healthcare, centene_corporation, health_care_service_corporation"
     },
     {
       "name": "Yale New Haven Health",
       "address": "Smilow Cancer Hospital, 20 York St, NP 7, New Haven, CT 6510",
       "type": "adult",
       "website": "https://www.ynhh.org/services/hematology/Sickle-Cell-Program",
-      "reviews": "2.9"
+      "reviews": "2.9",
+      "insurances": "unitedHealth_group, Humana, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, molina_healthcare, centene_corporation, health_care_service_corporation"
     },
     {
       "name": "Pediatric Comprehensive Sickle Cell Program",
       "address": "1120, 15th Street, Children's Hospital of Georgia, Augusta, GA 30809",
       "type": "pediatric",
       "website": "https://www.augusta.edu/mcg/pediatrics/hemoc-oncol/",
-      "reviews": "1.2"
+      "reviews": "1.2",
+      "insurances": "aetna, Humana, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, molina_healthcare, centene_corporation, health_care_service_corporation"
     },
     {
       "name": "Childrens Hospital Los Angeles",
       "address": "4650 Sunset BLVD MS 54, Los Angeles, CA 90027",
       "type": "pediatric",
       "website": "www.chla.org",
-      "reviews": "3.8"
+      "reviews": "3.8",
+      "insurances": "anthem_inc, Humana, molina_healthcare, centene_corporation, cigna, aetna, blue_cross_blue_shield_association, unitedHealth_group"
     },
     {
       "name": "Prisma Health Comprehensive Lifespan SCD Program",
       "address": "900 W. Faris Road, Greenville, SC 29605",
       "type": "whole_life",
       "website": "https://prismahealthchildrens.org/programs-and-services/programs/comprehensive-sickle-cell-disease-program-upstate",
-      "reviews": "4"
+      "reviews": "4",
+      "insurances": "centene_corporation, Humana, anthem_inc, aetna, blue_cross_blue_shield_association, unitedHealth_group, cigna, health_care_service_corporation"
     },
     {
       "name": "Children's Hospital of Michigan Comprehensive Sickle Cell Center",
       "address": "3rd Floor Carls Building, 3901 Beaubien Blvd, Detroit, MI 48201",
       "type": "pediatric",
       "website": "https://www.childrensdmc.org/services/sickle-cell-center",
-      "reviews": "2.6"
+      "reviews": "2.6",
+      "insurances": "kaiser_permanente, blue_cross_blue_shield_association, anthem_inc, centene_corporation, health_care_service_corporation, molina_healthcare, cigna, Humana"
     },
     {
       "name": "UCSD Adult Sickle Cell",
       "address": "3855 Health Sciences Drive, San Diego, CA 92037",
       "type": "adult",
       "website": "https://health.ucsd.edu/specialties/blood-disorders/Pages/sickle-cell-disease.aspx",
-      "reviews": "3.7"
+      "reviews": "3.7",
+      "insurances": "kaiser_permanente, Humana, blue_cross_blue_shield_association, anthem_inc, aetna, unitedHealth_group, health_care_service_corporation, molina_healthcare"
     },
     {
       "name": "Penn Comprehensive Sickle Cell Program at the Hospital of the University of Pennsylvania",
       "address": "3400 Civic Center Blvd, South Pavillion, 1st Floor, Philadelphia, PA 19104",
       "type": "adult",
       "website": "https://www.pennmedicine.org/for-patients-and-visitors/find-a-program-or-service/hematology/sickle-cell-disease-program",
-      "reviews": "1.6"
+      "reviews": "1.6",
+      "insurances": "health_care_service_corporation, blue_cross_blue_shield_association, unitedHealth_group, anthem_inc, centene_corporation, molina_healthcare, kaiser_permanente, Humana"
     },
     {
       "name": "Mississippi Center for Advanced Medicine",
       "address": "7730 Old Canton Road, Building B, Madison, MS 39110",
       "type": "adult",
       "website": "https://www.umc.edu/Research/Centers-and-Institutes/Centers/Childrens-of-Mississippi-Center-for-Cancer-and-Blood-Disorders/Childrens-of-Mississippi-Center-for-Cancer-and-Blood-Disorders.html",
-      "reviews": "4.3"
+      "reviews": "4.3",
+      "insurances": "Humana, kaiser_permanente, molina_healthcare, anthem_inc, centene_corporation, cigna, blue_cross_blue_shield_association, aetna"
     },
     {
       "name": "Center for Inherited Blood Disorders",
       "address": "701 S. Parker Suite 1000, Orange, CA 92868",
       "type": "whole_life",
       "website": "www.cibd-ca.org",
-      "reviews": "2.1"
+      "reviews": "2.1",
+      "insurances": "health_care_service_corporation, cigna, anthem_inc, kaiser_permanente, molina_healthcare, blue_cross_blue_shield_association, aetna, unitedHealth_group"
     },
     {
       "name": "Valley Children's Hospital",
       "address": "9300 Valley Children's Hospital, Madera, CA 93636",
       "type": "pediatric",
       "website": "https://www.valleychildrens.org/cancer-and-blood-diseases/conditions/sickle-cell-disease-in-children",
-      "reviews": "3.2"
+      "reviews": "3.2",
+      "insurances": "cigna, kaiser_permanente, aetna, centene_corporation, Humana, health_care_service_corporation, unitedHealth_group, blue_cross_blue_shield_association"
     },
     {
       "name": "University of Rochester Medical Center, Complex Care Center",
       "address": "905 Culver Rd, Rochester, NY 14609",
       "type": "adult",
       "website": "https://www.urmc.rochester.edu/complex-care-center.aspx",
-      "reviews": "4.9"
+      "reviews": "4.9",
+      "insurances": "aetna, Humana, centene_corporation, blue_cross_blue_shield_association, unitedHealth_group, cigna, molina_healthcare, health_care_service_corporation"
     },
     {
       "name": "UNC-Chapel Hill Comprehensive Sickle Cell Program",
       "address": "170 Manning Dr., Chapel Hill, NC 27599",
       "type": "pediatric",
       "website": "https://www.med.unc.edu/medicine/hematology/patient-care/sickle-cell-program/",
-      "reviews": "1.9"
+      "reviews": "1.9",
+      "insurances": "unitedHealth_group, kaiser_permanente, molina_healthcare, aetna, health_care_service_corporation, centene_corporation, cigna, Humana"
     },
     {
       "name": "ECU Sickle Cell Center",
       "address": "600 Moye Boulevard, MA333, Greenville, NC 28590",
       "type": "pediatric",
       "website": "https://pediatrics.ecu.edu/hematology/",
-      "reviews": "3.9"
+      "reviews": "3.9",
+      "insurances": "Humana, centene_corporation, kaiser_permanente, molina_healthcare, health_care_service_corporation, anthem_inc, cigna, blue_cross_blue_shield_association"
     },
     {
       "name": "University Of New Mexico Children's Hospital",
       "address": "2211 Lomas Blvd, Albuquerque, NM 87122",
       "type": "pediatric",
       "website": "https://unmhealth.org/childrens-hospital/services/blood-disorders-cancers.html",
-      "reviews": "2.5"
+      "reviews": "2.5",
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, molina_healthcare"
     },
     {
       "name": "Mt. Sinai Adult Program for Sickle Cell",
       "address": "1470 Madison Avenue, Third Floor, New York, NY 10029",
       "type": "adult",
       "website": "https://www.mountsinai.org/care/cancer/services/benign-hematology/sickle-cell-disease",
-      "reviews": "4.7"
+      "reviews": "4.7",
+      "insurances": "unitedHealth_group, aetna, Humana, anthem_inc, kaiser_permanente, centene_corporation, health_care_service_corporation, cigna"
     },
     {
       "name": "Adult Sickle Cell Clinic, Community Cancer Institute, UCSF Fresno",
       "address": "785 North Medical Center Drive West #203, Clovis, CA 93611",
       "type": "adult",
       "website": "https://www.communitymedical.org/services/cancer/our-program/community-cancer-institute",
-      "reviews": "1.3"
+      "reviews": "1.3",
+      "insurances": "centene_corporation, molina_healthcare, blue_cross_blue_shield_association, anthem_inc, kaiser_permanente, Humana, aetna, cigna"
     },
     {
       "name": "University of Utah",
       "address": "1280 E Stringham Avenue, Salt Lake City, Utah 84106",
       "type": "adult",
       "website": "https://healthcare.utah.edu/locations/sugar-house/benign-hematology",
-      "reviews": "3.6"
+      "reviews": "3.6",
+      "insurances": "kaiser_permanente, centene_corporation, health_care_service_corporation, blue_cross_blue_shield_association, molina_healthcare, anthem_inc, Humana, unitedHealth_group"
     },
     {
       "name": "University of Wisconsin",
       "address": "600 Highland Ave, Madison, WI 53705",
       "type": "adult",
       "website": "https://www.uwhealth.org/conditions/sickle-cell-anemia",
-      "reviews": "2.2"
+      "reviews": "2.2",
+      "insurances": "molina_healthcare, Humana, anthem_inc, aetna, unitedHealth_group, kaiser_permanente, centene_corporation, blue_cross_blue_shield_association"
     },
     {
       "name": "Blood Disorders Center at Primary Children's Hospital",
       "address": "100 Mario Capecchi Dr, Salt Lake City, UT 84113, Salt Lake City, UT 84113",
       "type": "pediatric",
       "website": "https://intermountainhealthcare.org/primary-childrens/programs-specialties/cancer/",
-      "reviews": "4.4"
+      "reviews": "4.4",
+      "insurances": "aetna, unitedHealth_group, kaiser_permanente, centene_corporation, health_care_service_corporation, cigna, anthem_inc, molina_healthcare"
     },
     {
       "name": "University of Minnesota Masonic Children's Hospital Journey Clinic",
       "address": "2450 Riverside Drive, Minneapolis, MN 55454",
       "type": "pediatric",
       "website": "www.mhealthfairview.org/specialties/Pediatric-Blood-Disorders",
-      "reviews": "3.5"
+      "reviews": "3.5",
+      "insurances": "health_care_service_corporation, anthem_inc, cigna, aetna, unitedHealth_group, kaiser_permanente, molina_healthcare, Humana"
     },
     {
       "name": "Children's Hospital & Medical Center",
       "address": "8200 Dodge St., Omaha, NE 68114",
       "type": "pediatric",
       "website": "https://www.childrensomaha.org/department/hematology-and-oncology/",
-      "reviews": "1.4"
+      "reviews": "1.4",
+      "insurances": "centene_corporation, aetna, kaiser_permanente, blue_cross_blue_shield_association, unitedHealth_group, health_care_service_corporation, molina_healthcare, anthem_inc"
     },
     {
       "name": "Cohen Children's Medical Center Northwell Health",
       "address": "269-01 76TH AVENUE, ROOM 255, New Hyde Park, NY 11040",
       "type": "pediatric",
       "website": "https://pediatrics.northwell.edu/departments-services/pediatric-hematology-oncology/programs-services/comprehensive-hemoglobinopathy-programs",
-      "reviews": "4.1"
+      "reviews": "4.1",
+      "insurances": "blue_cross_blue_shield_association, health_care_service_corporation, molina_healthcare, centene_corporation, Humana, anthem_inc, aetna, cigna"
     },
     {
       "name": "The Ohio State University",
       "address": "460 W 10th Ave, Columbus, OH 43210",
       "type": "adult",
       "website": "https://cancer.osu.edu/for-patients-and-caregivers/learn-about-cancers-and-treatments/cancers-conditions-and-treatment/benign-blood-diseases/sickle-cell-anemia",
-      "reviews": "2.4"
+      "reviews": "2.4",
+      "insurances": "cigna, molina_healthcare, blue_cross_blue_shield_association, anthem_inc, kaiser_permanente, aetna, centene_corporation, unitedHealth_group"
     },
     {
       "name": "Nemours Children's Health Wilmington, Pediatric Sickle Cell Disease Program",
       "address": "Nemours Center for Cancer and Blood Disorders, Nemours Children's Hospital Wilmington, 1600 Rockland Rd, Wilmington, DE 19803",
       "type": "pediatric",
       "website": "https://www.nemours.org/services/sickle-cell-disease.html",
-      "reviews": "3.3"
+      "reviews": "3.3",
+      "insurances": "unitedHealth_group, centene_corporation, kaiser_permanente, blue_cross_blue_shield_association, Humana, anthem_inc, cigna, health_care_service_corporation"
     },
     {
       "name": "MGH Comprehensive Sickle Cell Disease Treatment Center",
       "address": "55 Fruit Street, Boston, MA 2114",
       "type": "whole_life",
       "website": "https://www.massgeneral.org/medicine/sickle-cell-disease",
-      "reviews": "4.6"
+      "reviews": "4.6",
+      "insurances": "health_care_service_corporation, cigna, unitedHealth_group, anthem_inc, kaiser_permanente, aetna, molina_healthcare, blue_cross_blue_shield_association"
     },
     {
       "name": "Virginia Tech Carilion Clinic",
       "address": "1906 BELLEVIEW AVE SE, Roanoke, VA 24014",
       "type": "adult",
       "website": "www.carilionclinic.org/sicklecell",
-      "reviews": "2.8"
+      "reviews": "2.8",
+      "insurances": "molina_healthcare, anthem_inc, cigna, unitedHealth_group, Humana, centene_corporation, aetna, kaiser_permanente"
     },
     {
       "name": "University of Chicago Comer Childrens Hospital",
       "address": "5721 S. Maryland Ave, Chicago, IL 60654",
       "type": "pediatric",
       "website": "https://www.uchicagomedicine.org/comer",
-      "reviews": "3"
+      "reviews": "3",
+      "insurances": "kaiser_permanente, molina_healthcare, health_care_service_corporation, anthem_inc, blue_cross_blue_shield_association, aetna, centene_corporation, Humana"
     },
     {
       "name": "Johnson Haynes, Jr. MD Comprehensive Sickle Cell Center",
       "address": "2451 University Hospital Drive MCSB 1530, Mobile, AL 36617",
       "type": "whole_life",
       "website": "https://www.southalabama.edu/colleges/com/research/sicklecell.html",
-      "reviews": "1.1"
+      "reviews": "1.1",
+      "insurances": "blue_cross_blue_shield_association, unitedHealth_group, health_care_service_corporation, anthem_inc, cigna, aetna, kaiser_permanente, centene_corporation"
     },
     {
       "name": "University of AL at Birmingham",
       "address": "1720 2nd St South, Birmingham, AL 35294",
       "type": "adult",
       "website": "https://www.uab.edu/medicine/sicklecell/",
-      "reviews": "4.8"
+      "reviews": "4.8",
+      "insurances": "aetna, cigna, unitedHealth_group, kaiser_permanente, health_care_service_corporation, blue_cross_blue_shield_association, anthem_inc, molina_healthcare"
     },
     {
       "name": "Indiana Lifespan Sickle Cell Center at Indiana University Health",
       "address": "535 Barnhill Drive, Indianapolis, IN 46202",
       "type": "whole_life",
       "website": "https://www.rileychildrens.org/health-info/sickle-cell-disease",
-      "reviews": "2.9"
+      "reviews": "2.9",
+      "insurances": "centene_corporation, health_care_service_corporation, aetna, unitedHealth_group, Humana, anthem_inc, kaiser_permanente, blue_cross_blue_shield_association"
     },
     {
       "name": "UT Physicians Comprehensive Sickle Cell Center",
       "address": "1200 Binz St, Houston, TX 77004",
       "type": "adult",
       "website": "https://www.utphysicians.com/clinic/ut-physicians-comprehensive-sickle-cell-center/",
-      "reviews": "1.2"
+      "reviews": "1.2",
+      "insurances": "anthem_inc, molina_healthcare, cigna, health_care_service_corporation, kaiser_permanente, blue_cross_blue_shield_association, aetna, centene_corporation"
     },
     {
       "name": "University Hospitals Comprehensive SIckle Cell Program",
       "address": "11100 Euclid Avenue, Cleveland, OH 44106",
       "type": "pediatric",
       "website": "https://www.uhhospitals.org/services/cancer-services/benign-hematologic-disorders/adult-sickle-cell",
-      "reviews": "3.8"
+      "reviews": "3.8",
+      "insurances": "kaiser_permanente, anthem_inc, centene_corporation, unitedHealth_group, molina_healthcare, aetna, Humana, blue_cross_blue_shield_association"
     },
     {
       "name": "Augusta University Center for Blood Disorders",
       "address": "989 St. Sebastian Way, EF-100, Augusta, GA 30912",
       "type": "adult",
       "website": "https://www.augusta.edu/centers/blood-disorders/",
-      "reviews": "4"
+      "reviews": "4",
+      "insurances": "centene_corporation, kaiser_permanente, aetna, unitedHealth_group, anthem_inc, Humana, health_care_service_corporation, molina_healthcare"
     },
     {
       "name": "Sickle Cell Center for Adults at Johns Hopkins",
       "address": "1800 Orleans St, Baltimore, MD 21287",
       "type": "adult",
       "website": "https://www.hopkinsmedicine.org/hematology/sicklecell/",
-      "reviews": "2.6"
+      "reviews": "2.6",
+      "insurances": "blue_cross_blue_shield_association, anthem_inc, health_care_service_corporation, kaiser_permanente, cigna, unitedHealth_group, aetna, Humana"
     },
     {
       "name": "UNC Adult Sickle Cell Program",
       "address": "MEJ 8020, Campus Box 7305, Chapel Hill, NC 27514",
       "type": "adult",
       "website": "https://www.med.unc.edu/medicine/hematology/patient-care/clinical-services/sickle-cell-program/",
-      "reviews": "3.7"
+      "reviews": "3.7",
+      "insurances": "aetna, kaiser_permanente, anthem_inc, molina_healthcare, unitedHealth_group, cigna, blue_cross_blue_shield_association, centene_corporation"
     },
     {
       "name": "Children's Hospital at Montefiore",
       "address": "3415 Bainbridge Avenue, Bronx, NY 10467",
       "type": "pediatric",
       "website": "https://www.cham.org/specialties-and-programs/pediatric-hematology-oncology-and-cellular-therapy/services-programs/sickle-cell-disease-program",
-      "reviews": "1.6"
+      "reviews": "1.6",
+      "insurances": "molina_healthcare, kaiser_permanente, anthem_inc, blue_cross_blue_shield_association, cigna, aetna, Humana, unitedHealth_group"
     },
     {
       "name": "Newark Beth Israel Medical Center",
       "address": "201 Lyons Avenue, Newark, NJ 7112",
       "type": "adult",
       "website": "https://www.rwjbh.org/newark-beth-israel-medical-center/treatment-care/cancer-blood-disorders/blood-disorders/sickle-cell/",
-      "reviews": "4.3"
+      "reviews": "4.3",
+      "insurances": "centene_corporation, molina_healthcare, kaiser_permanente, anthem_inc, blue_cross_blue_shield_association, aetna, Humana, unitedHealth_group"
     },
     {
       "name": "Indiana Hemophilia and Thrombosis Center",
       "address": "8326 Naab Road, Indianapolis, IN 46260",
       "type": "whole_life",
       "website": "https://www.ihtc.org/",
-      "reviews": "2.1"
+      "reviews": "2.1",
+      "insurances": "anthem_inc, cigna, blue_cross_blue_shield_association, kaiser_permanente, unitedHealth_group,"
     },
     {
       "name": "VCU Adult Sickle Cell Medical Home",
       "address": "Box 980306, 730 E Broad St Suite 430, Richmond, VA 23298",
       "type": "adult",
       "website": "https://www.vcuhealth.org/services/sickle-cell-program",
-      "reviews": "3.2"
+      "reviews": "3.2",
+      "insurances": "unitedHealth_group, aetna, cigna, Humana, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, centene_corporation"
     },
     {
       "name": "Duke University",
       "address": "315 Trent Drive, Hanes 267, Durham, NC 27710",
       "type": "whole_life",
       "website": "https://medicine.duke.edu/divisions/hematology/patient-care/duke-sickle-cell-center",
-      "reviews": "4.9"
+      "reviews": "4.9",
+      "insurances": "kaiser_permanente, centene_corporation, molina_healthcare, anthem_inc, Humana, blue_cross_blue_shield_association, aetna, unitedHealth_group"
     },
     {
       "name": "University of Miami Pediatric Sickle Cell Program",
       "address": "1601 NW 12th Avenue Room 5048, Miami, FL 33136",
       "type": "pediatric",
       "website": "https://umiamihealth.org/en/treatments-and-services/hematology/sickle-cell-disease",
-      "reviews": "1.9"
+      "reviews": "1.9",
+      "insurances": "molina_healthcare, anthem_inc, centene_corporation, kaiser_permanente, unitedHealth_group, cigna, aetna, blue_cross_blue_shield_association"
     },
     {
       "name": "Odessa Brown Children’s Clinic Sickle Cell Program / Seattle Children’s Hospital",
       "address": "2101 E Yesler Way, Seattle, WA 98122",
       "type": "pediatric",
       "website": "https://www.seattlechildrens.org/contact/odessa-brown/",
-      "reviews": "3.9"
+      "reviews": "3.9",
+      "insurances": "cigna, blue_cross_blue_shield_association, aetna, Humana, unitedHealth_group, kaiser_permanente, centene_corporation, anthem_inc"
     },
     {
       "name": "University of Mississippi Medical Center",
       "address": "2500 North State Street, Jackson, MS 39216",
       "type": "whole_life",
       "website": "https://www.umc.edu/Childrens/Childrens%20Cancer%20and%20Blood%20Disorders/Childrens-Cancer-and-Blood-Disorders.html",
-      "reviews": "2.5"
+      "reviews": "2.5",
+      "insurances": "anthem_inc, kaiser_permanente, unitedHealth_group, aetna, centene_corporation, cigna, molina_healthcare, blue_cross_blue_shield_association"
     },
     {
       "name": "Nationwide Children's Hospital",
       "address": "700 Children's Drive, Columbus, OH 43205",
       "type": "pediatric",
       "website": "https://www.nationwidechildrens.org/specialties/sickle-cell-and-thalassemia-program",
-      "reviews": "4.7"
+      "reviews": "4.7",
+      "insurances": "aetna, centene_corporation, kaiser_permanente, molina_healthcare, anthem_inc, Humana, unitedHealth_group, blue_cross_blue_shield_association"
     },
     {
       "name": "Washington University School of Medicine Sickle Cell Disease Center",
       "address": "Division of Hematology, Washington University School of Medicine. 660 S Euclid Ave, MSC 8125-22-1101, Saint Louis, MO 63110",
       "type": "whole_life",
       "website": "https://sicklecell.wustl.edu/",
-      "reviews": "1.3"
+      "reviews": "1.3",
+      "insurances": "unitedHealth_group, cigna, aetna, anthem_inc, kaiser_permanente, blue_cross_blue_shield_association, centene_corporation, molina_healthcare"
     },
     {
       "name": "St. Jude Children's Research Hospital",
       "address": "262 Danny Thomas Place Mail Stop 800, Memphis, TN 38105",
       "type": "pediatric",
       "website": "www.stjude.org/sicklecell",
-      "reviews": "3.6"
+      "reviews": "3.6",
+      "insurances": "blue_cross_blue_shield_association, centene_corporation, health_care_service_corporation, aetna, kaiser_permanente, cigna, Humana, anthem_inc"
     },
     {
       "name": "Froedtert Hospital/Medical College of Wisconsin Sickle Cell Clinic",
       "address": "9200 West Wisconsin Avenue, Milwaukee, WI 53226",
       "type": "adult",
       "website": "https://www.froedtert.com/sickle-cell-disease",
-      "reviews": "2.2"
+      "reviews": "2.2",
+      "insurances": "health_care_service_corporation, anthem_inc, kaiser_permanente, unitedHealth_group, centene_corporation, molina_healthcare, blue_cross_blue_shield_association, aetna"
     },
     {
       "name": "Jacobi Medical Center, NYC Health + Hospitals",
       "address": "1400 Pelham Parkway South, Bronx, NY 10461",
       "type": "pediatric",
       "website": "https://www.jacobipeds.org/",
-      "reviews": "4.4"
+      "reviews": "4.4",
+      "insurances": "molina_healthcare, centene_corporation, anthem_inc, unitedHealth_group, kaiser_permanente, aetna, cigna, blue_cross_blue_shield_association"
     },
     {
       "name": "Johns Hopkins All Chidren's Hospital Comprehensive Sickle Cell Program",
       "address": "601 5th St. South, Suite 302, St. Petersburg, FL 33611",
       "type": "whole_life",
       "website": "https://www.hopkinsallchildrens.org/Services/Cancer-Institute/Programs-and-Services/Benign-Hematology/Sickle-Cell-Program",
-      "reviews": "3.5"
+      "reviews": "3.5",
+      "insurances": "cigna, unitedHealth_group, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, aetna, molina_healthcare, Humana"
     },
     {
       "name": "Norton Children's",
       "address": "571 South Floyd St STE 445, Louisville, KY 40202",
       "type": "pediatric",
       "website": "https://nortonchildrens.com/services/hematology/programs/sickle-cell-disease/",
-      "reviews": "1.4"
+      "reviews": "1.4",
+      "insurances": "blue_cross_blue_shield_association, kaiser_permanente, aetna, unitedHealth_group, centene_corporation, cigna, Humana, anthem_inc"
     },
     {
       "name": "Hemoglobinopathy at Children's Hospital Colorado",
       "address": "13123 E 16th Ave B -115, Aurora, CO 80045",
       "type": "pediatric",
       "website": "https://www.childrenscolorado.org/conditions-and-advice/conditions-and-symptoms/conditions/sickle-cell-anemia/",
-      "reviews": "4.1"
+      "reviews": "4.1",
+      "insurances": "kaiser_permanente, molina_healthcare, centene_corporation, aetna, anthem_inc, unitedHealth_group, cigna, blue_cross_blue_shield_association"
     },
     {
       "name": "UAMS Adult Sickle Cell Clinical Program",
       "address": "4301 W Markham St, Little Rock, AR 72205",
       "type": "adult",
       "website": "https://uamshealth.com/sickle-cell/",
-      "reviews": "2.4"
+      "reviews": "2.4",
+      "insurances": "anthem_inc, cigna, unitedHealth_group, aetna, molina_healthcare, kaiser_permanente, Humana, blue_cross_blue_shield_association"
     },
     {
       "name": "The Aflac Cancer and Blood Disorders Center",
       "address": "1405 Clifton Rd NE, Atlanta, GA 30322",
       "type": "pediatric",
       "website": "https://www.choa.org/medical-services/cancer-and-blood-disorders",
-      "reviews": "3.3"
+      "reviews": "3.3",
+      "insurances": "unitedHealth_group, anthem_inc, kaiser_permanente, cigna, molina_healthcare, aetna, centene_corporation, blue_cross_blue_shield_association"
     }
   ],
   "Treatment_Data": [

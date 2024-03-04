@@ -15,7 +15,7 @@ def load_user(user_id):
 @session_routes.route("/", methods=['POST'])
 def login():
     user = User.query.filter_by(email=request.json.get("email")).first()
-    if user.password == request.json.get("password"):
+    if user and user.password == request.json.get("password"):
         login_user(user)
         return Response("Authentication success.", status=200)
     return Response("Authentication failed.", status=401)

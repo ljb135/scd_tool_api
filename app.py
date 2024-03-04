@@ -4,7 +4,6 @@ from routes.user import user_routes
 from routes.session import session_routes, login_manager
 from routes.center import center_routes
 
-
 app = Flask(__name__)
 app.secret_key = 'Capstone2024'
 

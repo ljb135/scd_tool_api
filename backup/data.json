@@ -1440,7 +1440,8 @@
       "type": "whole_life",
       "website": "https://www.ucsfbenioffchildrens.org/clinics/sickle-cell-anemia-center",
       "reviews": "2.7",
-      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, molina_healthcare"
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, molina_healthcare",
+      "image_link": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/UCSF_Benioff_Children%27s_Hospital_Oakland.jpg/1920px-UCSF_Benioff_Children%27s_Hospital_Oakland.jpg"
     },
     {
       "name": "Boston Children's Health Physicians",
@@ -1448,7 +1449,8 @@
       "type": "pediatric",
       "website": "https://www.childrenshospital.org/bchp/specialty/pediatric-hematology-oncology-stem-cell-transplantation",
       "reviews": "3.4",
-      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, centene_corporation"
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, centene_corporation",
+      "image_link": "https://www.garnethealth.org/sites/default/files/hg_features/hg_location/2c745dac38c57cca94fe75f92b41937f.jpg"
     },
     {
       "name": "Children's Hospital of Richmond at VCU",
@@ -1456,7 +1458,8 @@
       "type": "pediatric",
       "website": "https://www.chrichmond.org/services/hematology-and-oncology/specialty-programs-and-clinics/sickle-cell-program",
       "reviews": "4.2",
-      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, health_care_service_corporation"
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, health_care_service_corporation",
+      "image_link": "https://www.vcuhealth.org/-/media/media/featurednewsimages/06-chor_markham_yard-1198_resized.ashx"
     },
     {
       "name": "Advocate Children's Hospital",
@@ -1464,7 +1467,8 @@
       "type": "pediatric",
       "website": "www.advocatechildrenshospital.com/services/blood-disorders/blood-disorders-we-treat/sickle-cell-disease",
       "reviews": "1.8",
-      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, molina_healthcare, centene_corporation"
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, molina_healthcare, centene_corporation",
+      "image_link": "https://www.advocatehealth.com/assets/images/pediatricresidency/advocatechildrens.jpg"
     },
     {
       "name": "Mayo Clinic",
@@ -1472,7 +1476,8 @@
       "type": "pediatric",
       "website": "https://www.mayoclinic.org/medical-professionals/pediatrics/news/multidisciplinary-sickle-cell-program-including-curative-bone-marrow-transplant/mac-20525836",
       "reviews": "2.3",
-      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, molina_healthcare, health_care_service_corporation"
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, molina_healthcare, health_care_service_corporation",
+      "image_link": "https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2019/10/28/15/57/roch-campus-720x400-3col.jpg"
     },
     {
       "name": "Harvard Brigham and Women's Comprehensive Sickle Cell Center",
@@ -1480,7 +1485,8 @@
       "type": "adult",
       "website": "www.brighamandwomens.org/medicine/hematology/overview",
       "reviews": "4.5",
-      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, centene_corporation, health_care_service_corporation"
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, blue_cross_blue_shield_association, centene_corporation, health_care_service_corporation",
+      "image_link": "https://www.massgeneralbrigham.org/content/mgb-global/global/en/patient-care/international/about/brigham-and-womens-hospital/_jcr_content/root/container_924996778/hero_banner.coreimg.jpeg/1687464794862/international-bwh-1428x1110.jpeg"
     },
     {
       "name": "University of Rochester Pediatric Sickle Cell Program",
@@ -1488,7 +1494,8 @@
       "type": "pediatric",
       "website": "https://www.urmc.rochester.edu/childrens-hospital/hemonc.aspx",
       "reviews": "3.1",
-      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, kaiser_permanente, molina_healthcare, centene_corporation"
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, kaiser_permanente, molina_healthcare, centene_corporation",
+      "image_link": "https://www.thelightingpractice.com/wp-content/uploads/2015/06/URMC-Golisano-39_A-2600x1734.jpg"
     },
     {
       "name": "University of California Irvine/Chao Family Comprehensive Cancer Center",
@@ -1496,7 +1503,8 @@
       "type": "adult",
       "website": "www.ucihealth.com",
       "reviews": "1.5",
-      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, kaiser_permanente, molina_healthcare, health_care_service_corporation"
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, kaiser_permanente, molina_healthcare, health_care_service_corporation",
+      "image_link": "https://research.uci.edu/wp-content/uploads/Bldg-23-current-photo-scaled.jpg"
     },
     {
       "name": "Nemours Children's Health Jacksonville",
@@ -1504,7 +1512,8 @@
       "type": "pediatric",
       "website": "https://www.nemours.org/services/sickle-cell-disease.html",
       "reviews": "4.8",
-      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, kaiser_permanente, centene_corporation, health_care_service_corporation"
+      "insurances": "cigna, unitedHealth_group, aetna, Humana, anthem_inc, kaiser_permanente, centene_corporation, health_care_service_corporation",
+      "image_link": "https://www.nemours.org/content/dam/nemours/nemours-org/en/photography/showcase-jax-15.jpg"
     },
     {
       "name": "University of Maryland Medical Center",
@@ -2112,7 +2121,8 @@
       "type": "pediatric",
       "website": "www.stjude.org/sicklecell",
       "reviews": "3.6",
-      "insurances": "blue_cross_blue_shield_association, centene_corporation, health_care_service_corporation, aetna, kaiser_permanente, cigna, Humana, anthem_inc"
+      "insurances": "blue_cross_blue_shield_association, centene_corporation, health_care_service_corporation, aetna, kaiser_permanente, cigna, Humana, anthem_inc",
+      "image_link": "https://upload.wikimedia.org/wikipedia/commons/1/14/St_Judes_grass.jpg"
     },
     {
       "name": "Froedtert Hospital/Medical College of Wisconsin Sickle Cell Clinic",
@@ -2128,7 +2138,8 @@
       "type": "pediatric",
       "website": "https://www.jacobipeds.org/",
       "reviews": "4.4",
-      "insurances": "molina_healthcare, centene_corporation, anthem_inc, unitedHealth_group, kaiser_permanente, aetna, cigna, blue_cross_blue_shield_association"
+      "insurances": "molina_healthcare, centene_corporation, anthem_inc, unitedHealth_group, kaiser_permanente, aetna, cigna, blue_cross_blue_shield_association",
+      "image_link": "https://lh3.googleusercontent.com/p/AF1QipNEqBPpxbj77Knpnhpfw9jAufbQwhllOH3xnb6N=s1360-w1360-h1020"
     },
     {
       "name": "Johns Hopkins All Chidren's Hospital Comprehensive Sickle Cell Program",
@@ -2136,7 +2147,8 @@
       "type": "whole_life",
       "website": "https://www.hopkinsallchildrens.org/Services/Cancer-Institute/Programs-and-Services/Benign-Hematology/Sickle-Cell-Program",
       "reviews": "3.5",
-      "insurances": "cigna, unitedHealth_group, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, aetna, molina_healthcare, Humana"
+      "insurances": "cigna, unitedHealth_group, anthem_inc, blue_cross_blue_shield_association, kaiser_permanente, aetna, molina_healthcare, Humana",
+      "image_link": "https://www.hopkinsmedicine.org/-/media/migration/all-childrens-hospital/images/locations/location-main-campus-occ.jpg?h=456&iar=0&w=800&hash=8107B9C4ADDC7ED7664B3EBD8206B208"
     },
     {
       "name": "Norton Children's",
@@ -2144,7 +2156,8 @@
       "type": "pediatric",
       "website": "https://nortonchildrens.com/services/hematology/programs/sickle-cell-disease/",
       "reviews": "1.4",
-      "insurances": "blue_cross_blue_shield_association, kaiser_permanente, aetna, unitedHealth_group, centene_corporation, cigna, Humana, anthem_inc"
+      "insurances": "blue_cross_blue_shield_association, kaiser_permanente, aetna, unitedHealth_group, centene_corporation, cigna, Humana, anthem_inc",
+      "image_link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Norton_Children%27s_Hospital_Exterior.jpg/570px-Norton_Children%27s_Hospital_Exterior.jpg"
     },
     {
       "name": "Hemoglobinopathy at Children's Hospital Colorado",
@@ -2152,7 +2165,8 @@
       "type": "pediatric",
       "website": "https://www.childrenscolorado.org/conditions-and-advice/conditions-and-symptoms/conditions/sickle-cell-anemia/",
       "reviews": "4.1",
-      "insurances": "kaiser_permanente, molina_healthcare, centene_corporation, aetna, anthem_inc, unitedHealth_group, cigna, blue_cross_blue_shield_association"
+      "insurances": "kaiser_permanente, molina_healthcare, centene_corporation, aetna, anthem_inc, unitedHealth_group, cigna, blue_cross_blue_shield_association",
+      "image_link": "https://www.childrenscolorado.org/globalassets/locations/anschutz-hero.jpg.jpg"
     },
     {
       "name": "UAMS Adult Sickle Cell Clinical Program",
@@ -2160,7 +2174,8 @@
       "type": "adult",
       "website": "https://uamshealth.com/sickle-cell/",
       "reviews": "2.4",
-      "insurances": "anthem_inc, cigna, unitedHealth_group, aetna, molina_healthcare, kaiser_permanente, Humana, blue_cross_blue_shield_association"
+      "insurances": "anthem_inc, cigna, unitedHealth_group, aetna, molina_healthcare, kaiser_permanente, Humana, blue_cross_blue_shield_association",
+      "image_link": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=KpRmiKtPc86AzOk0MhGpNQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=358.27182&pitch=0&thumbfov=100"
     },
     {
       "name": "The Aflac Cancer and Blood Disorders Center",
@@ -2168,7 +2183,8 @@
       "type": "pediatric",
       "website": "https://www.choa.org/medical-services/cancer-and-blood-disorders",
       "reviews": "3.3",
-      "insurances": "unitedHealth_group, anthem_inc, kaiser_permanente, cigna, molina_healthcare, aetna, centene_corporation, blue_cross_blue_shield_association"
+      "insurances": "unitedHealth_group, anthem_inc, kaiser_permanente, cigna, molina_healthcare, aetna, centene_corporation, blue_cross_blue_shield_association",
+      "image_link": "https://lh3.googleusercontent.com/p/AF1QipMj-m9Z0E7FKrnCLRFFuzaR1hyDrZOkx_ENLaa9=s1360-w1360-h1020"
     }
   ],
   "Treatment_Data": [

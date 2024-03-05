@@ -16,7 +16,6 @@ def add_user():
 
 
 @user_routes.route("/", methods=['GET'])
-@login_required
 def get_all_users():
     users = db.session.scalars(select(User))
     return [user.to_dict() for user in users]
@@ -47,14 +46,12 @@ def delete_current_user():
 
 
 @user_routes.route("/<int:user_id>", methods=['GET'])
-@login_required
 def get_user(user_id):
     user = db.get_or_404(User, user_id)
     return user.to_dict()
 
 
 @user_routes.route("/<int:user_id>", methods=['PUT'])
-@login_required
 def modify_user(user_id):
     content = request.json
     user = db.get_or_404(User, user_id)
@@ -65,7 +62,6 @@ def modify_user(user_id):
 
 
 @user_routes.route("/<int:user_id>", methods=['DELETE'])
-@login_required
 def delete_user(user_id):
     user = db.get_or_404(User, user_id)
     db.session.delete(user)

@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify
-from sqlalchemy import select
+from sqlalchemy import select, func
 from database import db, Center
 from flask_login import login_required, current_user
 
@@ -8,7 +8,9 @@ center_routes = Blueprint('center', __name__, url_prefix='/center')
 
 @center_routes.route("/", methods=['GET'])
 def get_all_centers():
-    centers = db.session.scalars(select(Center))
+    #centers = db.session.scalars(select(Center))
+    # to randomly select 10 centers for testing purposes
+    centers = db.session.query(Center).order_by(func.random()).limit(10).all()
     return [center.to_dict() for center in centers]
 
 

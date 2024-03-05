@@ -54,6 +54,7 @@ class Center(db.Model, SerializerMixin):
     phone_number: str = Column(String(20))
     website: str = Column(String(250))
     reviews: float = Column(Float)
+    image_link: str = Column(String(500))
 
     treatments: Mapped[List['Treatment']] = relationship(back_populates='center')
     insurances: Mapped[List['Insurance']] = relationship(secondary=coverage_table, back_populates='covers')

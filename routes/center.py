@@ -10,7 +10,8 @@ center_routes = Blueprint('center', __name__, url_prefix='/center')
 def get_all_centers():
     #centers = db.session.scalars(select(Center))
     # to randomly select 10 centers for testing purposes
-    centers = db.session.query(Center).order_by(func.random()).limit(10).all()
+    #centers = db.session.query(Center).order_by(func.random()).limit(10).all()
+    centers = db.session.query(Center).limit(10).all()
     return [center.to_dict() for center in centers]
 
 

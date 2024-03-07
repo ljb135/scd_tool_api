@@ -66,9 +66,10 @@ class Treatment(db.Model, SerializerMixin):
 
     id: int = Column(Integer, primary_key=True)
     type: str = Column(String(30), nullable=False)  # Integer?
-    patients: Mapped[List['User']] = relationship(back_populates='treatment')
-    center_id: int = Column(ForeignKey("center.id"))
 
+    patients: Mapped[List['User']] = relationship(back_populates='treatment')
+
+    center_id: int = Column(ForeignKey("center.id"))
     center: Mapped['Center'] = relationship(back_populates='treatments')
 
 

@@ -28,6 +28,7 @@ def create_treatment_from_json(treatment_json):
 
 def create_user_from_json(user_json):
     user_json["insurance"] = session.scalars(select(Insurance).filter_by(name=user_json["insurance"])).first()
+    user_json["treatment"] = session.scalars(select(Treatment).filter_by(center=session.scalars(select(Center).filter_by(name=user_json['treatment'])).first())).first()
     return User(**user_json)
 
 

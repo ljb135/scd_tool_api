@@ -3,6 +3,7 @@ from database import db
 from routes.user import user_routes
 from routes.session import session_routes, login_manager
 from routes.center import center_routes
+from routes.match import match_routes
 
 app = Flask(__name__)
 app.secret_key = 'Capstone2024'
@@ -20,6 +21,7 @@ with app.app_context():
 app.register_blueprint(user_routes)
 app.register_blueprint(session_routes)
 app.register_blueprint(center_routes)
+app.register_blueprint(match_routes)
 
 if __name__ == "__main__":
     app.run(debug=True)

@@ -12,7 +12,8 @@
       "income": "0",
       "education": "1",
       "preferred_transportation": "driving",
-      "insurance": "centene_corporation"
+      "insurance": "centene_corporation",
+      "treatment": "Oregon Health and Science University"
     },
     {
       "email": "bob.jones@email.com",
@@ -26,7 +27,8 @@
       "income": "0",
       "education": "1",
       "preferred_transportation": "driving",
-      "insurance": "humana"
+      "insurance": "humana",
+      "treatment": "Oregon Health and Science University"
     },
     {
       "email": "emily.wang@email.com",
@@ -40,7 +42,8 @@
       "income": "79000",
       "education": "5",
       "preferred_transportation": "driving",
-      "insurance": "centene_corporation"
+      "insurance": "centene_corporation",
+      "treatment": "University of Miami Pediatric Sickle Cell Program"
     },
     {
       "email": "michael.davis@email.com",
@@ -54,7 +57,8 @@
       "income": "34000",
       "education": "3",
       "preferred_transportation": "driving",
-      "insurance": "humana"
+      "insurance": "humana",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "sarah.jackson@email.com",
@@ -68,7 +72,8 @@
       "income": "0",
       "education": "1",
       "preferred_transportation": "driving",
-      "insurance": "molina_healthcare"
+      "insurance": "molina_healthcare",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "alex.nguyen@email.com",
@@ -82,7 +87,8 @@
       "income": "124000",
       "education": "2",
       "preferred_transportation": "driving",
-      "insurance": "cigna"
+      "insurance": "cigna",
+      "treatment": "Adult Sickle Cell Clinic, Community Cancer Institute, UCSF Fresno"
     },
     {
       "email": "olivia.miller@email.com",
@@ -96,7 +102,8 @@
       "income": "38000",
       "education": "4",
       "preferred_transportation": "driving",
-      "insurance": "molina_healthcare"
+      "insurance": "molina_healthcare",
+      "treatment": "MGH Comprehensive Sickle Cell Disease Treatment Center"
     },
     {
       "email": "daniel.johnson@email.com",
@@ -110,7 +117,8 @@
       "income": "138000",
       "education": "6",
       "preferred_transportation": "driving",
-      "insurance": "blue_cross_blue_shield_association"
+      "insurance": "blue_cross_blue_shield_association",
+      "treatment": "MGH Comprehensive Sickle Cell Disease Treatment Center"
     },
     {
       "email": "grace.wilson@email.com",
@@ -124,7 +132,8 @@
       "income": "0",
       "education": "1",
       "preferred_transportation": "driving",
-      "insurance": "molina_healthcare"
+      "insurance": "molina_healthcare",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "john.doe@email.com",
@@ -138,7 +147,8 @@
       "income": "55000",
       "education": "2",
       "preferred_transportation": "transit",
-      "insurance": "molina_healthcare"
+      "insurance": "molina_healthcare",
+      "treatment": "MGH Comprehensive Sickle Cell Disease Treatment Center"
     },
     {
       "email": "jane.roe@email.com",
@@ -152,7 +162,8 @@
       "income": "13000",
       "education": "1",
       "preferred_transportation": "driving",
-      "insurance": "unitedHealth_group"
+      "insurance": "unitedHealth_group",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "dave.brown@email.com",
@@ -166,7 +177,8 @@
       "income": "213000",
       "education": "4",
       "preferred_transportation": "driving",
-      "insurance": "humana"
+      "insurance": "humana",
+      "treatment": "Lifespan Sickle Cell Program of Rhode Island"
     },
     {
       "email": "emily.jones@email.com",
@@ -180,7 +192,8 @@
       "income": "87000",
       "education": "6",
       "preferred_transportation": "driving",
-      "insurance": "health_care_service_corporation"
+      "insurance": "health_care_service_corporation",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "michael.jordan@email.com",
@@ -194,7 +207,8 @@
       "income": "94000",
       "education": "3",
       "preferred_transportation": "driving",
-      "insurance": "anthem_inc"
+      "insurance": "anthem_inc",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "lisa.white@email.com",
@@ -208,7 +222,8 @@
       "income": "112000",
       "education": "5",
       "preferred_transportation": "driving",
-      "insurance": "health_care_service_corporation"
+      "insurance": "health_care_service_corporation",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "mark.green@email.com",
@@ -222,7 +237,8 @@
       "income": "85000",
       "education": "2",
       "preferred_transportation": "driving",
-      "insurance": "molina_healthcare"
+      "insurance": "molina_healthcare",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "chloe.tan@email.com",
@@ -236,7 +252,8 @@
       "income": "29000",
       "education": "4",
       "preferred_transportation": "driving",
-      "insurance": "unitedHealth_group"
+      "insurance": "unitedHealth_group",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "ethan.gray@email.com",
@@ -250,7 +267,8 @@
       "income": "64000",
       "education": "1",
       "preferred_transportation": "driving",
-      "insurance": "centene_corporation"
+      "insurance": "centene_corporation",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "sophia.davis@email.com",
@@ -264,7 +282,8 @@
       "income": "126000",
       "education": "6",
       "preferred_transportation": "driving",
-      "insurance": "humana"
+      "insurance": "humana",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "michael.brown@email.com",
@@ -278,7 +297,8 @@
       "income": "24000",
       "education": "3",
       "preferred_transportation": "driving",
-      "insurance": "blue_cross_blue_shield_association"
+      "insurance": "blue_cross_blue_shield_association",
+      "treatment": "MGH Comprehensive Sickle Cell Disease Treatment Center"
     },
     {
       "email": "lisa.white@email.com",
@@ -292,7 +312,8 @@
       "income": "24000",
       "education": "3",
       "preferred_transportation": "driving",
-      "insurance": "humana"
+      "insurance": "humana",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "james.johnson@email.com",
@@ -306,7 +327,8 @@
       "income": "228000",
       "education": "4",
       "preferred_transportation": "driving",
-      "insurance": "aetna"
+      "insurance": "aetna",
+      "treatment": "MGH Comprehensive Sickle Cell Disease Treatment Center"
     },
     {
       "email": "emily.davis@email.com",
@@ -320,7 +342,8 @@
       "income": "50000",
       "education": "2",
       "preferred_transportation": "driving",
-      "insurance": "cigna"
+      "insurance": "cigna",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "david.martinez@email.com",
@@ -334,7 +357,8 @@
       "income": "120000",
       "education": "5",
       "preferred_transportation": "driving",
-      "insurance": "cigna"
+      "insurance": "cigna",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "sarah.lee@email.com",
@@ -348,7 +372,8 @@
       "income": "48000",
       "education": "1",
       "preferred_transportation": "driving",
-      "insurance": "humana"
+      "insurance": "humana",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "daniel.wilson@email.com",
@@ -362,7 +387,8 @@
       "income": "125000",
       "education": "6",
       "preferred_transportation": "driving",
-      "insurance": "centene_corporation"
+      "insurance": "centene_corporation",
+      "treatment": "Foundation for Sickle Cell Disease Research"
     },
     {
       "email": "jessica.taylor@email.com",
@@ -376,7 +402,8 @@
       "income": "26000",
       "education": "2",
       "preferred_transportation": "driving",
-      "insurance": "aetna"
+      "insurance": "aetna",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "william.moore@email.com",
@@ -390,7 +417,8 @@
       "income": "56000",
       "education": "3",
       "preferred_transportation": "driving",
-      "insurance": "unitedHealth_group"
+      "insurance": "unitedHealth_group",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "laura.jackson@email.com",
@@ -404,7 +432,8 @@
       "income": "66000",
       "education": "4",
       "preferred_transportation": "driving",
-      "insurance": "aetna"
+      "insurance": "aetna",
+      "treatment": "MGH Comprehensive Sickle Cell Disease Treatment Center"
     },
     {
       "email": "anthony.hall@email.com",
@@ -418,7 +447,8 @@
       "income": "118000",
       "education": "5",
       "preferred_transportation": "driving",
-      "insurance": "anthem_inc"
+      "insurance": "anthem_inc",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "karen.wright@email.com",
@@ -432,7 +462,8 @@
       "income": "233000",
       "education": "1",
       "preferred_transportation": "driving",
-      "insurance": "health_care_service_corporation"
+      "insurance": "health_care_service_corporation",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "brian.hernandez@email.com",
@@ -446,7 +477,8 @@
       "income": "65000",
       "education": "6",
       "preferred_transportation": "driving",
-      "insurance": "blue_cross_blue_shield_association"
+      "insurance": "blue_cross_blue_shield_association",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "nicole.lopez@email.com",
@@ -460,7 +492,8 @@
       "income": "136000",
       "education": "4",
       "preferred_transportation": "driving",
-      "insurance": "kaiser_permanente"
+      "insurance": "kaiser_permanente",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "kevin.garcia@email.com",
@@ -474,7 +507,8 @@
       "income": "146000",
       "education": "2",
       "preferred_transportation": "driving",
-      "insurance": "molina_healthcare"
+      "insurance": "molina_healthcare",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "jessica.clark@email.com",
@@ -488,7 +522,8 @@
       "income": "49000",
       "education": "3",
       "preferred_transportation": "driving",
-      "insurance": "humana"
+      "insurance": "humana",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "matthew.rodriguez@email.com",
@@ -502,7 +537,8 @@
       "income": "103000",
       "education": "5",
       "preferred_transportation": "driving",
-      "insurance": "centene_corporation"
+      "insurance": "centene_corporation",
+      "treatment": "Lifespan Sickle Cell Program of Rhode Island"
     },
     {
       "email": "ashley.lewis@email.com",
@@ -516,7 +552,8 @@
       "income": "3000",
       "education": "1",
       "preferred_transportation": "driving",
-      "insurance": "centene_corporation"
+      "insurance": "centene_corporation",
+      "treatment": "Foundation for Sickle Cell Disease Research"
     },
     {
       "email": "chris.walker@email.com",
@@ -530,7 +567,8 @@
       "income": "11000",
       "education": "6",
       "preferred_transportation": "driving",
-      "insurance": "humana"
+      "insurance": "humana",
+      "treatment": "Lifespan Sickle Cell Program of Rhode Island"
     },
     {
       "email": "stephanie.allen@email.com",
@@ -544,7 +582,8 @@
       "income": "70000",
       "education": "2",
       "preferred_transportation": "driving",
-      "insurance": "aetna"
+      "insurance": "aetna",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "gregory.young@email.com",
@@ -558,7 +597,8 @@
       "income": "95000",
       "education": "4",
       "preferred_transportation": "transit",
-      "insurance": "unitedHealth_group"
+      "insurance": "unitedHealth_group",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "sandra.hernandez@email.com",
@@ -572,7 +612,8 @@
       "income": "48000",
       "education": "3",
       "preferred_transportation": "driving",
-      "insurance": "centene_corporation"
+      "insurance": "centene_corporation",
+      "treatment": "Adult Sickle Cell Clinic, Community Cancer Institute, UCSF Fresno"
     },
     {
       "email": "douglas.king@email.com",
@@ -586,7 +627,8 @@
       "income": "184000",
       "education": "5",
       "preferred_transportation": "driving",
-      "insurance": "kaiser_permanente"
+      "insurance": "kaiser_permanente",
+      "treatment": "MGH Comprehensive Sickle Cell Disease Treatment Center"
     },
     {
       "email": "melissa.wright@email.com",
@@ -600,7 +642,8 @@
       "income": "34000",
       "education": "1",
       "preferred_transportation": "driving",
-      "insurance": "blue_cross_blue_shield_association"
+      "insurance": "blue_cross_blue_shield_association",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "joshua.lopez@email.com",
@@ -614,7 +657,8 @@
       "income": "61000",
       "education": "6",
       "preferred_transportation": "driving",
-      "insurance": "health_care_service_corporation"
+      "insurance": "health_care_service_corporation",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "heather.garcia@email.com",
@@ -628,7 +672,8 @@
       "income": "23000",
       "education": "4",
       "preferred_transportation": "driving",
-      "insurance": "humana"
+      "insurance": "humana",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "scott.clark@email.com",
@@ -642,7 +687,8 @@
       "income": "135000",
       "education": "2",
       "preferred_transportation": "driving",
-      "insurance": "humana"
+      "insurance": "humana",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "erica.rodriguez@email.com",
@@ -656,7 +702,8 @@
       "income": "32000",
       "education": "3",
       "preferred_transportation": "driving",
-      "insurance": "molina_healthcare"
+      "insurance": "molina_healthcare",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "jeffrey.lewis@email.com",
@@ -670,7 +717,8 @@
       "income": "112000",
       "education": "5",
       "preferred_transportation": "driving",
-      "insurance": "blue_cross_blue_shield_association"
+      "insurance": "blue_cross_blue_shield_association",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "kimberly.walker@email.com",
@@ -684,7 +732,8 @@
       "income": "49000",
       "education": "1",
       "preferred_transportation": "driving",
-      "insurance": "unitedHealth_group"
+      "insurance": "unitedHealth_group",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "elizabeth.martin@email.com",
@@ -698,7 +747,8 @@
       "income": "15000",
       "education": "6",
       "preferred_transportation": "driving",
-      "insurance": "blue_cross_blue_shield_association"
+      "insurance": "blue_cross_blue_shield_association",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "david.anderson@email.com",
@@ -712,7 +762,8 @@
       "income": "122000",
       "education": "4",
       "preferred_transportation": "driving",
-      "insurance": "anthem_inc"
+      "insurance": "anthem_inc",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "maria.thomas@email.com",
@@ -726,7 +777,8 @@
       "income": "41000",
       "education": "3",
       "preferred_transportation": "driving",
-      "insurance": "kaiser_permanente"
+      "insurance": "kaiser_permanente",
+      "treatment": "MGH Comprehensive Sickle Cell Disease Treatment Center"
     },
     {
       "email": "charles.jackson@email.com",
@@ -740,7 +792,8 @@
       "income": "6000",
       "education": "5",
       "preferred_transportation": "driving",
-      "insurance": "molina_healthcare"
+      "insurance": "molina_healthcare",
+      "treatment": "MGH Comprehensive Sickle Cell Disease Treatment Center"
     },
     {
       "email": "cynthia.moore@email.com",
@@ -754,7 +807,8 @@
       "income": "13000",
       "education": "2",
       "preferred_transportation": "driving",
-      "insurance": "unitedHealth_group"
+      "insurance": "unitedHealth_group",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "joseph.taylor@email.com",
@@ -768,7 +822,8 @@
       "income": "132000",
       "education": "6",
       "preferred_transportation": "driving",
-      "insurance": "cigna"
+      "insurance": "cigna",
+      "treatment": "Adult Sickle Cell Clinic, Community Cancer Institute, UCSF Fresno"
     },
     {
       "email": "sarah.lee@email.com",
@@ -782,7 +837,8 @@
       "income": "26000",
       "education": "1",
       "preferred_transportation": "driving",
-      "insurance": "health_care_service_corporation"
+      "insurance": "health_care_service_corporation",
+      "treatment": "Foundation for Sickle Cell Disease Research"
     },
     {
       "email": "ryan.wilson@email.com",
@@ -796,7 +852,8 @@
       "income": "24000",
       "education": "3",
       "preferred_transportation": "driving",
-      "insurance": "unitedHealth_group"
+      "insurance": "unitedHealth_group",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "laura.harris@email.com",
@@ -810,7 +867,8 @@
       "income": "21000",
       "education": "4",
       "preferred_transportation": "driving",
-      "insurance": "blue_cross_blue_shield_association"
+      "insurance": "blue_cross_blue_shield_association",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "kevin.martin@email.com",
@@ -824,7 +882,8 @@
       "income": "58000",
       "education": "2",
       "preferred_transportation": "driving",
-      "insurance": "kaiser_permanente"
+      "insurance": "kaiser_permanente",
+      "treatment": "MGH Comprehensive Sickle Cell Disease Treatment Center"
     },
     {
       "email": "diana.evans@email.com",
@@ -838,7 +897,8 @@
       "income": "56000",
       "education": "5",
       "preferred_transportation": "transit",
-      "insurance": "cigna"
+      "insurance": "cigna",
+      "treatment": "Adult Sickle Cell Clinic, Community Cancer Institute, UCSF Fresno"
     },
     {
       "email": "brian.white@email.com",
@@ -852,7 +912,8 @@
       "income": "57000",
       "education": "1",
       "preferred_transportation": "driving",
-      "insurance": "blue_cross_blue_shield_association"
+      "insurance": "blue_cross_blue_shield_association",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "julie.clark@email.com",
@@ -866,7 +927,8 @@
       "income": "155000",
       "education": "6",
       "preferred_transportation": "driving",
-      "insurance": "unitedHealth_group"
+      "insurance": "unitedHealth_group",
+      "treatment": "MGH Comprehensive Sickle Cell Disease Treatment Center"
     },
     {
       "email": "gary.thomas@email.com",
@@ -880,7 +942,8 @@
       "income": "43000",
       "education": "3",
       "preferred_transportation": "driving",
-      "insurance": "aetna"
+      "insurance": "aetna",
+      "treatment": "MGH Comprehensive Sickle Cell Disease Treatment Center"
     },
     {
       "email": "amanda.jackson@email.com",
@@ -894,7 +957,8 @@
       "income": "126000",
       "education": "2",
       "preferred_transportation": "driving",
-      "insurance": "blue_cross_blue_shield_association"
+      "insurance": "blue_cross_blue_shield_association",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "james.taylor@email.com",
@@ -908,7 +972,8 @@
       "income": "64000",
       "education": "4",
       "preferred_transportation": "driving",
-      "insurance": "health_care_service_corporation"
+      "insurance": "health_care_service_corporation",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "patricia.wilson@email.com",
@@ -922,7 +987,8 @@
       "income": "62000",
       "education": "5",
       "preferred_transportation": "driving",
-      "insurance": "molina_healthcare"
+      "insurance": "molina_healthcare",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "daniel.harris@email.com",
@@ -936,7 +1002,8 @@
       "income": "15000",
       "education": "1",
       "preferred_transportation": "driving",
-      "insurance": "health_care_service_corporation"
+      "insurance": "health_care_service_corporation",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "nancy.martin@email.com",
@@ -950,7 +1017,8 @@
       "income": "9000",
       "education": "6",
       "preferred_transportation": "driving",
-      "insurance": "humana"
+      "insurance": "humana",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "jason.evans@email.com",
@@ -964,7 +1032,8 @@
       "income": "81000",
       "education": "3",
       "preferred_transportation": "driving",
-      "insurance": "health_care_service_corporation"
+      "insurance": "health_care_service_corporation",
+      "treatment": "MGH Comprehensive Sickle Cell Disease Treatment Center"
     },
     {
       "email": "linda.white@email.com",
@@ -978,7 +1047,8 @@
       "income": "47000",
       "education": "4",
       "preferred_transportation": "driving",
-      "insurance": "centene_corporation"
+      "insurance": "centene_corporation",
+      "treatment": "Foundation for Sickle Cell Disease Research"
     },
     {
       "email": "robert.clark@email.com",
@@ -992,7 +1062,8 @@
       "income": "144000",
       "education": "2",
       "preferred_transportation": "driving",
-      "insurance": "centene_corporation"
+      "insurance": "centene_corporation",
+      "treatment": "Lifespan Sickle Cell Program of Rhode Island"
     },
     {
       "email": "michelle.thomas@email.com",
@@ -1006,7 +1077,8 @@
       "income": "49000",
       "education": "5",
       "preferred_transportation": "driving",
-      "insurance": "centene_corporation"
+      "insurance": "centene_corporation",
+      "treatment": "Lifespan Sickle Cell Program of Rhode Island"
     },
     {
       "email": "steven.jackson@email.com",
@@ -1020,7 +1092,8 @@
       "income": "88000",
       "education": "1",
       "preferred_transportation": "driving",
-      "insurance": "unitedHealth_group"
+      "insurance": "unitedHealth_group",
+      "treatment": "Foundation for Sickle Cell Disease Research"
     },
     {
       "email": "lisa.taylor@email.com",
@@ -1034,7 +1107,8 @@
       "income": "38000",
       "education": "6",
       "preferred_transportation": "driving",
-      "insurance": "unitedHealth_group"
+      "insurance": "unitedHealth_group",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "mark.wilson@email.com",
@@ -1048,7 +1122,8 @@
       "income": "19000",
       "education": "3",
       "preferred_transportation": "driving",
-      "insurance": "centene_corporation"
+      "insurance": "centene_corporation",
+      "treatment": "Adult Sickle Cell Clinic, Community Cancer Institute, UCSF Fresno"
     },
     {
       "email": "jennifer.harris@email.com",
@@ -1062,7 +1137,8 @@
       "income": "5000",
       "education": "4",
       "preferred_transportation": "driving",
-      "insurance": "centene_corporation"
+      "insurance": "centene_corporation",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "andrew.martin@email.com",
@@ -1076,7 +1152,8 @@
       "income": "133000",
       "education": "2",
       "preferred_transportation": "driving",
-      "insurance": "kaiser_permanente"
+      "insurance": "kaiser_permanente",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "thomas.king@email.com",
@@ -1090,7 +1167,8 @@
       "income": "27000",
       "education": "5",
       "preferred_transportation": "driving",
-      "insurance": "centene_corporation"
+      "insurance": "centene_corporation",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "emma.hall@email.com",
@@ -1104,7 +1182,8 @@
       "income": "11000",
       "education": "1",
       "preferred_transportation": "driving",
-      "insurance": "blue_cross_blue_shield_association"
+      "insurance": "blue_cross_blue_shield_association",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "christopher.scott@email.com",
@@ -1118,7 +1197,8 @@
       "income": "35000",
       "education": "6",
       "preferred_transportation": "driving",
-      "insurance": "cigna"
+      "insurance": "cigna",
+      "treatment": "Adult Sickle Cell Clinic, Community Cancer Institute, UCSF Fresno"
     },
     {
       "email": "olivia.young@email.com",
@@ -1132,7 +1212,8 @@
       "income": "39000",
       "education": "4",
       "preferred_transportation": "driving",
-      "insurance": "humana"
+      "insurance": "humana",
+      "treatment": "Lifespan Sickle Cell Program of Rhode Island"
     },
     {
       "email": "joshua.adams@email.com",
@@ -1146,7 +1227,8 @@
       "income": "16000",
       "education": "3",
       "preferred_transportation": "driving",
-      "insurance": "aetna"
+      "insurance": "aetna",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "nicole.campbell@email.com",
@@ -1160,7 +1242,8 @@
       "income": "92000",
       "education": "5",
       "preferred_transportation": "driving",
-      "insurance": "molina_healthcare"
+      "insurance": "molina_healthcare",
+      "treatment": "MGH Comprehensive Sickle Cell Disease Treatment Center"
     },
     {
       "email": "brandon.phillips@email.com",
@@ -1174,7 +1257,8 @@
       "income": "5000",
       "education": "2",
       "preferred_transportation": "driving",
-      "insurance": "aetna"
+      "insurance": "aetna",
+      "treatment": "MGH Comprehensive Sickle Cell Disease Treatment Center"
     },
     {
       "email": "katherine.turner@email.com",
@@ -1188,7 +1272,8 @@
       "income": "47000",
       "education": "6",
       "preferred_transportation": "driving",
-      "insurance": "humana"
+      "insurance": "humana",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "zachary.parker@email.com",
@@ -1202,7 +1287,8 @@
       "income": "119000",
       "education": "1",
       "preferred_transportation": "driving",
-      "insurance": "health_care_service_corporation"
+      "insurance": "health_care_service_corporation",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "stephanie.collins@email.com",
@@ -1216,7 +1302,8 @@
       "income": "8000",
       "education": "4",
       "preferred_transportation": "driving",
-      "insurance": "unitedHealth_group"
+      "insurance": "unitedHealth_group",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "kyle.lee@email.com",
@@ -1230,7 +1317,8 @@
       "income": "67000",
       "education": "3",
       "preferred_transportation": "driving",
-      "insurance": "anthem_inc"
+      "insurance": "anthem_inc",
+      "treatment": "MGH Comprehensive Sickle Cell Disease Treatment Center"
     },
     {
       "email": "heather.edwards@email.com",
@@ -1244,7 +1332,8 @@
       "income": "22000",
       "education": "2",
       "preferred_transportation": "driving",
-      "insurance": "aetna"
+      "insurance": "aetna",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "eric.mitchell@email.com",
@@ -1258,7 +1347,8 @@
       "income": "75000",
       "education": "5",
       "preferred_transportation": "driving",
-      "insurance": "centene_corporation"
+      "insurance": "centene_corporation",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "megan.perez@email.com",
@@ -1272,7 +1362,8 @@
       "income": "70000",
       "education": "1",
       "preferred_transportation": "driving",
-      "insurance": "cigna"
+      "insurance": "cigna",
+      "treatment": "Foundation for Sickle Cell Disease Research"
     },
     {
       "email": "jeffery.nelson@email.com",
@@ -1286,7 +1377,8 @@
       "income": "13000",
       "education": "6",
       "preferred_transportation": "driving",
-      "insurance": "cigna"
+      "insurance": "cigna",
+      "treatment": "Foundation for Sickle Cell Disease Research"
     },
     {
       "email": "lauren.roberts@email.com",
@@ -1300,7 +1392,8 @@
       "income": "54000",
       "education": "4",
       "preferred_transportation": "driving",
-      "insurance": "cigna"
+      "insurance": "cigna",
+      "treatment": "Foundation for Sickle Cell Disease Research"
     },
     {
       "email": "aaron.carter@email.com",
@@ -1314,7 +1407,8 @@
       "income": "14000",
       "education": "3",
       "preferred_transportation": "driving",
-      "insurance": "health_care_service_corporation"
+      "insurance": "health_care_service_corporation",
+      "treatment": "MGH Comprehensive Sickle Cell Disease Treatment Center"
     },
     {
       "email": "kelly.phillips@email.com",
@@ -1328,7 +1422,8 @@
       "income": "10000",
       "education": "5",
       "preferred_transportation": "driving",
-      "insurance": "unitedHealth_group"
+      "insurance": "unitedHealth_group",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "jacob.moore@email.com",
@@ -1342,7 +1437,8 @@
       "income": "16000",
       "education": "2",
       "preferred_transportation": "driving",
-      "insurance": "anthem_inc"
+      "insurance": "anthem_inc",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "rachel.anderson@email.com",
@@ -1356,7 +1452,8 @@
       "income": "94000",
       "education": "6",
       "preferred_transportation": "driving",
-      "insurance": "health_care_service_corporation"
+      "insurance": "health_care_service_corporation",
+      "treatment": "MGH Comprehensive Sickle Cell Disease Treatment Center"
     },
     {
       "email": "tyler.thompson@email.com",
@@ -1370,7 +1467,8 @@
       "income": "23000",
       "education": "1",
       "preferred_transportation": "driving",
-      "insurance": "molina_healthcare"
+      "insurance": "molina_healthcare",
+      "treatment": "UCSD Adult Sickle Cell"
     },
     {
       "email": "diana.murphy@email.com",
@@ -1384,7 +1482,8 @@
       "income": "23000",
       "education": "4",
       "preferred_transportation": "driving",
-      "insurance": "centene_corporation"
+      "insurance": "centene_corporation",
+      "treatment": "UCSF Benioff Children's Hospital Oakland"
     },
     {
       "email": "jeremy.gonzalez@email.com",
@@ -1398,7 +1497,8 @@
       "income": "11000",
       "education": "3",
       "preferred_transportation": "driving",
-      "insurance": "centene_corporation"
+      "insurance": "centene_corporation",
+      "treatment": "Lifespan Sickle Cell Program of Rhode Island"
     }
   ],
   "Insurance_Data": [
@@ -2130,7 +2230,8 @@
       "type": "adult",
       "website": "https://www.froedtert.com/sickle-cell-disease",
       "reviews": "2.2",
-      "insurances": "health_care_service_corporation, anthem_inc, kaiser_permanente, unitedHealth_group, centene_corporation, molina_healthcare, blue_cross_blue_shield_association, aetna"
+      "insurances": "health_care_service_corporation, anthem_inc, kaiser_permanente, unitedHealth_group, centene_corporation, molina_healthcare, blue_cross_blue_shield_association, aetna",
+      "image_link": "https://ctsi.mcw.edu/images/fmlh-mcw-title-1.jpg"
     },
     {
       "name": "Jacobi Medical Center, NYC Health + Hospitals",
@@ -6160,7 +6261,7 @@
       "associate_center": "FALSE"
     },
     {
-      "center_name": "UCSF Benioff Children's Hospital Oakland - Adult",
+      "center_name": "UCSF Benioff Children's Hospital Oakland",
       "street_address": "747 52nd St",
       "city": "Oakland",
       "state": "CA",

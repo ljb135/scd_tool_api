@@ -8,11 +8,13 @@ import pandas as pd
 from sklearn.neighbors import KNeighborsClassifier as KNN
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
+from dotenv import load_dotenv
+import os
 
 match_routes = Blueprint('match', __name__, url_prefix='/match')
 
-API_key = "AIzaSyDRSrRqfB6rbE-Ty2c_Ah9-E47FoJVHQ74"
-gmaps = googlemaps.Client(key=API_key)
+load_dotenv()
+gmaps = googlemaps.Client(key=os.environ['GOOGLE_MAP_API_KEY'])
 
 
 def calculate_age(DoB):
@@ -72,4 +74,25 @@ def match_knn():
     # Find center_id of match
     match_id = model.predict(data.drop('match', axis=1).iloc[-1].to_numpy().reshape(1, -1))
 
-    return db.get_or_404(Center, match_id).to_dict()
+    matched_center = db.get_or_404(Center, match_id).to_dict()
+    matched_center.update(travel_time(current_user.address, matched_center['address']))
+    return matched_center
+
+
+def travel_time(address1, address2, mode=None):
+    try:
+        if mode:
+            if type(address1) == str and type(address2) == str:
+                return gmaps.distance_matrix(address1, address2, mode, units="imperial")['rows'][0]['elements'][0]['duration']['value']
+            matrix = []
+            response = gmaps.distance_matrix(address1, address2, mode, units="imperial")
+            for row in response['rows']:
+                arr = []
+                for element in row['elements']:
+                    arr.append(element['duration']['value'] if 'duration' in element else 0)
+                matrix.append(arr)
+            return matrix
+        return dict([(mode, gmaps.distance_matrix(address1, address2, mode, units="imperial")['rows'][0]['elements'][0]['duration']['value']) for mode in ["driving", "walking", "bicycling", "transit"]])
+    except KeyError:
+        print(address1, address2)
+        return 0

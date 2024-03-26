@@ -12,7 +12,7 @@ db = SQLAlchemy()
 
 @dataclass
 class User(db.Model, UserMixin, SerializerMixin):
-    serialize_rules = ('-treatment.patients', '-insurance.users', '-insurance.covers')
+    serialize_rules = ('-physician.patients', '-insurance.users', '-insurance.covers')
 
     id: int = Column(Integer, primary_key=True)
     email: str = Column(String(50), unique=True, nullable=False)
@@ -30,8 +30,8 @@ class User(db.Model, UserMixin, SerializerMixin):
     insurance_id: int = Column(ForeignKey("insurance.id"))
     insurance: Mapped['Insurance'] = relationship(back_populates="users")
 
-    treatment_id: int = Column(ForeignKey("treatment.id"))
-    treatment: Mapped['Treatment'] = relationship(back_populates="patients")
+    physician_id: int = Column(ForeignKey("physician.id"))
+    physician: Mapped['Physician'] = relationship(back_populates="patients")
 
 
 coverage_table = Table(
@@ -44,7 +44,7 @@ coverage_table = Table(
 
 @dataclass
 class Center(db.Model, SerializerMixin):
-    serialize_rules = ('-treatments.center', '-treatments.patients', '-insurances.users', '-insurances.covers')
+    serialize_rules = ('-physicians.center', '-physicians.patients', '-insurances.users', '-insurances.covers')
 
     id: int = Column(Integer, primary_key=True)
     name: str = Column(String(100), unique=True, nullable=False)
@@ -56,21 +56,26 @@ class Center(db.Model, SerializerMixin):
     reviews: float = Column(Float)
     image_link: str = Column(String(500))
 
-    treatments: Mapped[List['Treatment']] = relationship(back_populates='center')
+    physicians: Mapped[List['Physician']] = relationship(back_populates='center')
     insurances: Mapped[List['Insurance']] = relationship(secondary=coverage_table, back_populates='covers')
 
 
 @dataclass
-class Treatment(db.Model, SerializerMixin):
-    serialize_rules = ('-center.treatments', '-patients.treatment', '-patients.insurance')
+class Physician(db.Model, SerializerMixin):
+    serialize_rules = ('-center.physicians', '-patients.physician', '-patients.insurance')
 
     id: int = Column(Integer, primary_key=True)
-    type: str = Column(String(30), nullable=False)  # Integer?
+    first_name: str = Column(String(30), nullable=False)
+    last_name: str = Column(String(30), nullable=False)
+    DoB: str = Column(Date, unique=False, nullable=False)
+    ethnicity: str = Column(String(20))
+    title: str = Column(String(40))
+    additional_language: str = Column(String(40))
 
-    patients: Mapped[List['User']] = relationship(back_populates='treatment')
+    patients: Mapped[List['User']] = relationship(back_populates='physician')
 
     center_id: int = Column(ForeignKey("center.id"))
-    center: Mapped['Center'] = relationship(back_populates='treatments')
+    center: Mapped['Center'] = relationship(back_populates='physicians')
 
 
 @dataclass

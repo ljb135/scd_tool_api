@@ -58,7 +58,7 @@ class Center(db.Model, SerializerMixin):
 
     physicians: Mapped[List['Physician']] = relationship(back_populates='center')
     insurances: Mapped[List['Insurance']] = relationship(secondary=coverage_table, back_populates='covers')
-
+    
 
 @dataclass
 class Physician(db.Model, SerializerMixin):
@@ -76,6 +76,26 @@ class Physician(db.Model, SerializerMixin):
 
     center_id: int = Column(ForeignKey("center.id"))
     center: Mapped['Center'] = relationship(back_populates='physicians')
+    
+    reviews: Mapped["Review"] = relationship(back_populates="physician")
+    
+@dataclass
+class Review(db.Model, SerializerMixin):
+    serialize_rules = ('-user.')
+    
+    id: int = Column(Integer, primary_key=True)
+    physician_score: int = Column(Integer, nullable=False)
+    comment_to_physician: str = Column(String(100), nullable=True)
+    attribute1: int = Column(Integer, nullable=True)
+    attribute2: int = Column(Integer, nullable=True)
+    attribute3: int = Column(Integer, nullable=True)
+    attribute4: int = Column(Integer, nullable=True)
+    attribute5: int = Column(Integer, nullable=True)
+    
+    
+    physician_id: int = Column(ForeignKey("physician.id"))
+    physician: Mapped["Physician"] = relationship(back_populates="review")
+    
 
 
 @dataclass

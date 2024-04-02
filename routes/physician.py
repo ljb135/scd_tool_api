@@ -22,5 +22,5 @@ def get_physicians_for_current_user():
 
 @physician_routes.route("/<int:physician_id>", methods=['GET'])
 def get_physician(physician_id):
-    physician = db.get_or_404(Center, physician_id)
+    physician = db.get_or_404(Physician, physician_id)
     return physician.to_dict()

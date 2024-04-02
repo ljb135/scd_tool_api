@@ -64,7 +64,11 @@ class Center(db.Model, SerializerMixin):
 
 @dataclass
 class Physician(db.Model, SerializerMixin):
-    serialize_rules = ('-center.physicians', '-patients.physician', '-patients.insurance', '-reviews.physician', '-reviews.user')
+    serialize_rules = ('-center.physicians', '-patients.physician', '-patients.insurance', '-reviews.physician', '-reviews.user', 'avg_score')
+
+    def avg_score(self):
+        reviews = self.reviews
+        return sum(review.physician_score for review in reviews) / len(reviews)
 
     id: int = Column(Integer, primary_key=True)
     first_name: str = Column(String(30), nullable=False)

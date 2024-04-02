@@ -1,7 +1,7 @@
 from typing import List
 
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy import Integer, String, Boolean, Date, Column, ForeignKey, Float, Table
+from sqlalchemy import Integer, String, Double, Date, Column, ForeignKey, Float, Table
 from flask_login import UserMixin
 from sqlalchemy.orm import relationship, Mapped
 from sqlalchemy_serializer import SerializerMixin
@@ -12,7 +12,7 @@ db = SQLAlchemy()
 
 @dataclass
 class User(db.Model, UserMixin, SerializerMixin):
-    serialize_rules = ('-physician.patients', '-insurance.users', '-insurance.covers')
+    serialize_rules = ('-physician.patients', '-insurance.users', '-insurance.covers', '-reviews')
 
     id: int = Column(Integer, primary_key=True)
     email: str = Column(String(50), unique=True, nullable=False)
@@ -32,6 +32,8 @@ class User(db.Model, UserMixin, SerializerMixin):
 
     physician_id: int = Column(ForeignKey("physician.id"))
     physician: Mapped['Physician'] = relationship(back_populates="patients")
+
+    reviews: Mapped[List['Review']] = relationship(back_populates="user")
 
 
 coverage_table = Table(
@@ -62,7 +64,7 @@ class Center(db.Model, SerializerMixin):
 
 @dataclass
 class Physician(db.Model, SerializerMixin):
-    serialize_rules = ('-center.physicians', '-patients.physician', '-patients.insurance')
+    serialize_rules = ('-center.physicians', '-patients.physician', '-patients.insurance', '-reviews.physician', '-reviews.user')
 
     id: int = Column(Integer, primary_key=True)
     first_name: str = Column(String(30), nullable=False)
@@ -77,24 +79,26 @@ class Physician(db.Model, SerializerMixin):
     center_id: int = Column(ForeignKey("center.id"))
     center: Mapped['Center'] = relationship(back_populates='physicians')
     
-    reviews: Mapped["Review"] = relationship(back_populates="physician")
+    reviews: Mapped[List["Review"]] = relationship(back_populates="physician")
     
 @dataclass
 class Review(db.Model, SerializerMixin):
-    serialize_rules = ('-user.')
+    serialize_rules = ('-user.reviews', '-physician.reviews')
     
     id: int = Column(Integer, primary_key=True)
     physician_score: int = Column(Integer, nullable=False)
     comment_to_physician: str = Column(String(100), nullable=True)
-    attribute1: int = Column(Integer, nullable=True)
-    attribute2: int = Column(Integer, nullable=True)
-    attribute3: int = Column(Integer, nullable=True)
-    attribute4: int = Column(Integer, nullable=True)
-    attribute5: int = Column(Integer, nullable=True)
-    
+    attribute1: float = Column(Double, nullable=True)
+    attribute2: float = Column(Double, nullable=True)
+    attribute3: float = Column(Double, nullable=True)
+    attribute4: float = Column(Double, nullable=True)
+    attribute5: float = Column(Double, nullable=True)
     
     physician_id: int = Column(ForeignKey("physician.id"))
-    physician: Mapped["Physician"] = relationship(back_populates="review")
+    physician: Mapped["Physician"] = relationship(back_populates="reviews")
+
+    user_id: int = Column(ForeignKey("user.id"))
+    user: Mapped["User"] = relationship(back_populates="reviews")
     
 
 

@@ -79,6 +79,13 @@ def match_knn():
     return matched_center
 
 
+@match_routes.route("/score", methods=['GET'])
+@login_required
+def match_by_score():
+    centers = db.session.query(Center).limit(10).all()
+    return [center.to_dict() for center in centers]
+
+
 def travel_time(address1, address2, mode=None):
     try:
         if mode:

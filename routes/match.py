@@ -82,6 +82,12 @@ def match_knn():
 @match_routes.route("/score", methods=['GET'])
 @login_required
 def match_by_score():
+    # Run match
+
+    # Store each user physician pair into the database
+
+    # Return top 10 centers
+
     centers = db.session.query(Center).limit(10).all()
     return [center.to_dict() for center in centers]
 

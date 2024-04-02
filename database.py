@@ -44,6 +44,15 @@ coverage_table = Table(
 )
 
 
+# user_physician_table = Table(
+#     "user_physician_table",
+#     Column("user_id")
+#     Column("physician_id")
+#     favorite
+#     score
+# )
+
+
 @dataclass
 class Center(db.Model, SerializerMixin):
     serialize_rules = ('-physicians.center', '-physicians.patients', '-insurances.users', '-insurances.covers')
@@ -84,7 +93,8 @@ class Physician(db.Model, SerializerMixin):
     center: Mapped['Center'] = relationship(back_populates='physicians')
     
     reviews: Mapped[List["Review"]] = relationship(back_populates="physician")
-    
+
+
 @dataclass
 class Review(db.Model, SerializerMixin):
     serialize_rules = ('-user.reviews', '-physician.reviews')
@@ -104,7 +114,6 @@ class Review(db.Model, SerializerMixin):
     user_id: int = Column(ForeignKey("user.id"))
     user: Mapped["User"] = relationship(back_populates="reviews")
     
-
 
 @dataclass
 class Insurance(db.Model, SerializerMixin):

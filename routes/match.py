@@ -1,6 +1,6 @@
 from flask import Blueprint, jsonify
 from sqlalchemy import select, func
-from database import db, Center, User
+from database import db, Center, User, Physician
 from flask_login import login_required, current_user
 from datetime import date, datetime
 import googlemaps
@@ -88,8 +88,8 @@ def match_by_score():
 
     # Return top 10 centers
 
-    centers = db.session.query(Center).limit(10).all()
-    return [center.to_dict() for center in centers]
+    physicians = db.session.query(Physician).limit(10).all()
+    return [physician.to_dict() for physician in physicians]
 
 
 def travel_time(address1, address2, mode=None):

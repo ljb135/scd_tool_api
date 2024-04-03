@@ -23,7 +23,8 @@ def create_physician_from_json(physician_json):
 
 def create_user_from_json(user_json):
     user_json["insurance"] = session.scalars(select(Insurance).filter_by(name=user_json["insurance"])).first()
-    user_json["physician"] = session.scalars(select(Physician).filter_by(center=session.scalars(select(Center).filter_by(name=user_json['physician'])).first())).first()
+    if "physician" in user_json:
+        user_json["physician"] = session.scalars(select(Physician).filter_by(id=user_json['physician'])).first()
     return User(**user_json)
 
 
@@ -35,9 +36,9 @@ session = Session(engine)
 # print(session.scalars(select(Treatment).filter_by(type='prescribe_voxeletor')).first().center)
 
 data = json.load(open('data.json'))
-# session.add_all([create_insurance_from_json(insurance) for insurance in data['Insurance_Data']])
-# session.add_all([create_center_from_json(center) for center in data['Center_Data']])
-# session.add_all([create_physician_from_json(physician) for physician in data['Physician_Data']])
-# session.add_all([create_user_from_json(user) for user in data['User_Data']])
+session.add_all([create_insurance_from_json(insurance) for insurance in data['Insurance_Data']])
+session.add_all([create_center_from_json(center) for center in data['Center_Data']])
+session.add_all([create_physician_from_json(physician) for physician in data['Physician_Data']])
+session.add_all([create_user_from_json(user) for user in data['User_Data']])
 session.add_all([create_review_from_json(review) for review in data['Review_Data']])
 session.commit()

@@ -21,11 +21,20 @@ class User(db.Model, UserMixin, SerializerMixin):
     last_name: str = Column(String(30), nullable=False)
     DoB: str = Column(Date, unique=False, nullable=False)
     phone_number: str = Column(String(20), unique=True, nullable=False)
+
     ethnicity: str = Column(String(20))
     address: str = Column(String(200), unique=False, nullable=False)
     income: int = Column(Integer)
     education: str = Column(String(30))
+
     preferred_transportation: str = Column(String(10))
+    max_travel_time: int = Column(Integer)
+
+    attribute1: float = Column(Double)
+    attribute2: float = Column(Double)
+    attribute3: float = Column(Double)
+    attribute4: float = Column(Double)
+    attribute5: float = Column(Double)
 
     insurance_id: int = Column(ForeignKey("insurance.id"))
     insurance: Mapped['Insurance'] = relationship(back_populates="users")
@@ -86,6 +95,7 @@ class Physician(db.Model, SerializerMixin):
     ethnicity: str = Column(String(20))
     title: str = Column(String(40))
     additional_language: str = Column(String(40))
+    image_link: str = Column(String(500))
 
     patients: Mapped[List['User']] = relationship(back_populates='physician')
 

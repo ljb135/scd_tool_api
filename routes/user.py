@@ -1,6 +1,6 @@
 from flask import Blueprint, request, Response, jsonify
 from sqlalchemy import select
-from database import db, User, Insurance
+from database import db, User, Insurance, UserPhysicianAssociation
 from flask_login import login_required, current_user
 
 user_routes = Blueprint('user', __name__, url_prefix='/user')
@@ -47,14 +47,37 @@ def delete_current_user():
     return Response("User has been deleted.", status=200)
 
 
-@user_routes.route("/current/accessible-physicians", methods=['GET'])
+@user_routes.route("/current/accessible-physician", methods=['GET'])
 @login_required
 def get_physicians_for_current_user():
     centers = current_user.insurance.covers
     return [physician.to_dict() for center in centers for physician in list(center.physicians)]
 
 
-@user_routes.route("/current/accessible-centers", methods=['GET'])
+@user_routes.route("/current/saved-physician", methods=['GET'])
+@login_required
+def get_saved_physicians_for_current_user():
+    associations = filter(lambda association: association.saved, current_user.physician_associations)
+    return [association.physician.to_dict() for association in associations]
+
+
+@user_routes.route("/current/saved-physician/<int:physician_id>", methods=['PUT'])
+@login_required
+def update_saved_physicians_for_current_user(physician_id):
+    db.session.merge(UserPhysicianAssociation(user_id=current_user.id, physician_id=physician_id, saved=True))
+    db.session.commit()
+    return Response("Physician saved.", status=200)
+
+
+@user_routes.route("/current/saved-physician/<int:physician_id>", methods=['DELETE'])
+@login_required
+def delete_saved_physicians_for_current_user(physician_id):
+    db.session.merge(UserPhysicianAssociation(user_id=current_user.id, physician_id=physician_id, saved=False))
+    db.session.commit()
+    return Response("Physician unsaved.", status=200)
+
+
+@user_routes.route("/current/accessible-center", methods=['GET'])
 @login_required
 def get_centers_for_current_user():
     centers = current_user.insurance.covers

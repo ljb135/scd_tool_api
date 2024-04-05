@@ -6,7 +6,7 @@ from flask_login import login_required, current_user
 center_routes = Blueprint('center', __name__, url_prefix='/center')
 
 
-@center_routes.route("/", methods=['GET'])
+@center_routes.route("", methods=['GET'])
 def get_all_centers():
     centers = db.session.scalars(select(Center))
     return [center.to_dict() for center in centers]

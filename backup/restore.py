@@ -31,7 +31,7 @@ def user_physician_association_from_json(user_json):
     if "physician" in user_json:
         user = session.scalars(select(User).filter_by(email=user_json['email'])).first()
         physician = session.scalars(select(Physician).filter_by(id=user_json['physician'])).first()
-        return UserPhysicianAssociation(user=user, physician=physician, currently_visiting=True, visited=True);
+        return UserPhysicianAssociation(user=user, physician=physician, currently_visiting=True, visited=True)
     else:
         return None
 
@@ -44,10 +44,10 @@ session = Session(engine)
 # print(session.scalars(select(Treatment).filter_by(type='prescribe_voxeletor')).first().center)
 
 data = json.load(open('data.json'))
-session.add_all([insurance_from_json(insurance) for insurance in data['Insurance_Data']])
-session.add_all([center_from_json(center) for center in data['Center_Data']])
-session.add_all([physician_from_json(physician) for physician in data['Physician_Data']])
-session.add_all([user_from_json(user) for user in data['User_Data']])
+# session.add_all([insurance_from_json(insurance) for insurance in data['Insurance_Data']])
+# session.add_all([center_from_json(center) for center in data['Center_Data']])
+# session.add_all([physician_from_json(physician) for physician in data['Physician_Data']])
+# session.add_all([user_from_json(user) for user in data['User_Data']])
 session.add_all([association for association in map(user_physician_association_from_json, data['User_Data']) if association is not None])
-session.add_all([review_from_json(review) for review in data['Review_Data']])
+# session.add_all([review_from_json(review) for review in data['Review_Data']])
 session.commit()

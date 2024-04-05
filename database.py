@@ -54,16 +54,16 @@ coverage_table = Table(
 
 @dataclass
 class UserPhysicianAssociation(db.Model, SerializerMixin):
-    user_id: int = Column(ForeignKey("physician.id"), primary_key=True)
-    physician_id: int = Column(ForeignKey("user.id"), primary_key=True)
+    user_id: int = Column(ForeignKey("user.id"), primary_key=True)
+    user: Mapped[List['User']] = relationship(back_populates="physician_associations")
+
+    physician_id: int = Column(ForeignKey("physician.id"), primary_key=True)
+    physician: Mapped[List['Physician']] = relationship(back_populates="patient_associations")
 
     match_score: float = Column(Float)
     currently_visiting: bool = Column(Boolean)
     visited: bool = Column(Boolean)
     saved: bool = Column(Boolean)
-    
-    user: Mapped[List['User']] = relationship(back_populates="physician_associations")
-    physician: Mapped[List['Physician']] = relationship(back_populates="patient_associations")
 
 
 @dataclass
@@ -116,6 +116,7 @@ class Review(db.Model, SerializerMixin):
     id: int = Column(Integer, primary_key=True)
     physician_score: int = Column(Integer, nullable=False)
     comment_to_physician: str = Column(String(100), nullable=True)
+
     attribute1: float = Column(Double, nullable=True)
     attribute2: float = Column(Double, nullable=True)
     attribute3: float = Column(Double, nullable=True)

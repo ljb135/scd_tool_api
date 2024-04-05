@@ -83,7 +83,7 @@ def match_knn():
 @login_required
 def match_by_score():
     # Run match
-
+    
     # Store each user physician pair into the database
 
     # Return top 10 centers

@@ -34,6 +34,8 @@ class User(db.Model, UserMixin, SerializerMixin):
     physician: Mapped['Physician'] = relationship(back_populates="patients")
 
     reviews: Mapped[List['Review']] = relationship(back_populates="user")
+    
+    # physician = db.relationship("user_physician_table", back_populates="user")
 
 
 coverage_table = Table(
@@ -43,6 +45,16 @@ coverage_table = Table(
     Column("center_id", ForeignKey("center.id"), primary_key=True),
 )
 
+
+class user_physician_table(db.Model, SerializerMixin):
+    Column("user_id", ForeignKey("physician.id"), primary_key=True),
+    Column("physician_id", ForeignKey("user.id"), primary_key=True),
+    favorite: bool = Column(bool, nullable=True, unique=False)
+    score: int = Column(Integer, nullable=True, unique=False)
+    
+    user = db.relationship("User", back_populates="physician")
+    physician = db.relationship("Physician", back_populates="user")
+    
 
 # user_physician_table = Table(
 #     "user_physician_table",
@@ -93,6 +105,9 @@ class Physician(db.Model, SerializerMixin):
     center: Mapped['Center'] = relationship(back_populates='physicians')
     
     reviews: Mapped[List["Review"]] = relationship(back_populates="physician")
+    
+    # user = db.relationship("user_physician_table", back_populates="physician")
+
 
 
 @dataclass

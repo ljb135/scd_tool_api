@@ -12,7 +12,7 @@ db = SQLAlchemy()
 
 @dataclass
 class User(db.Model, UserMixin, SerializerMixin):
-    serialize_rules = ('-physician.patients', '-insurance.users', '-insurance.covers', '-reviews')
+    serialize_rules = ('-physician_associations', '-insurance.users', '-insurance.covers', '-insurance_id', '-reviews')
 
     id: int = Column(Integer, primary_key=True)
     email: str = Column(String(50), unique=True, nullable=False)
@@ -52,16 +52,18 @@ coverage_table = Table(
 )
 
 
+@dataclass
 class UserPhysicianAssociation(db.Model, SerializerMixin):
     user_id: int = Column(ForeignKey("physician.id"), primary_key=True)
     physician_id: int = Column(ForeignKey("user.id"), primary_key=True)
+
     match_score: float = Column(Float)
     currently_visiting: bool = Column(Boolean)
     visited: bool = Column(Boolean)
     saved: bool = Column(Boolean)
     
-    user = db.relationship("User", back_populates="physician_associations")
-    physician = db.relationship("Physician", back_populates="patient_associations")
+    user: Mapped[List['User']] = relationship(back_populates="physician_associations")
+    physician: Mapped[List['Physician']] = relationship(back_populates="patient_associations")
 
 
 @dataclass
@@ -84,11 +86,11 @@ class Center(db.Model, SerializerMixin):
 
 @dataclass
 class Physician(db.Model, SerializerMixin):
-    serialize_rules = ('-center.physicians', '-patients.physician', '-patients.insurance', '-reviews.physician', '-reviews.user', 'avg_user_rating')
+    serialize_rules = ('-center.physicians', '-patient_associations', '-reviews', 'avg_user_rating')
 
     def avg_user_rating(self):
         reviews = self.reviews
-        return sum(review.physician_score for review in reviews) / len(reviews)
+        return sum(review.physician_score for review in reviews) / len(reviews) if len(reviews) > 0 else 0
 
     id: int = Column(Integer, primary_key=True)
     first_name: str = Column(String(30), nullable=False)

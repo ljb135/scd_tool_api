@@ -5,6 +5,7 @@ from routes.session import session_routes, login_manager
 from routes.physician import physician_routes
 from routes.match import match_routes
 from routes.insurance import insurance_routes
+from routes.center import center_routes
 from dotenv import load_dotenv
 import os
 
@@ -23,6 +24,7 @@ with app.app_context():
 
 # routes
 app.register_blueprint(user_routes)
+app.register_blueprint(center_routes)
 app.register_blueprint(session_routes)
 app.register_blueprint(physician_routes)
 app.register_blueprint(match_routes)

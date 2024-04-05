@@ -1,6 +1,6 @@
 from flask import Blueprint, jsonify
 from sqlalchemy import select, func
-from database import db, Center, User
+from database import db, Center, User, Physician
 from flask_login import login_required, current_user
 from datetime import date, datetime
 import googlemaps
@@ -24,10 +24,11 @@ def calculate_age(DoB):
 
 def filter_attributes(patient):
     patient_dict = patient.to_dict(only=(
-    'education', 'preferred_transportation', 'address', 'treatment.center.id', 'DoB', 'income'))
+        'attribute1', 'attribute2', 'attribute3', 'attribute4', 'attribute5',
+        'max_travel_time', 'preferred_transportation', 'address', 'physician.id', 'DoB'))
 
     patient_dict["age"] = calculate_age(patient.DoB)
-    patient_dict["match"] = patient_dict["treatment"]["center"]["id"]
+    patient_dict["match"] = patient_dict["physician"]["id"]
 
     # Calculate longitude and latitude from address
     location = gmaps.geocode(patient_dict["address"])[0]['geometry']['location']
@@ -36,7 +37,7 @@ def filter_attributes(patient):
 
     patient_dict.pop("address")
     patient_dict.pop("DoB")
-    patient_dict.pop("treatment")
+    patient_dict.pop("physician")
 
     return patient_dict
 
@@ -54,18 +55,22 @@ def match_knn():
     # Get all patients of filtered centers
     relevant_patients = []
     for center in centers:
-        for treatment in center.treatments:
-            relevant_patients += treatment.patients
+        for physician in center.physicians:
+            relevant_patients += physician.patients
 
-    # Get income, age, medication, education, preferred_transportation, longitude, latitude for each patient
+    # Get age, attributes, preferred_transportation, maximum_travel_time, longitude, latitude for each patient
     data = pd.DataFrame.from_records([filter_attributes(patient) for patient in relevant_patients + [current_user]])
 
     # One-hot encode categorical variables and normalize numeric variables
-    data = pd.get_dummies(data, columns=['education', 'preferred_transportation'])
+    data = pd.get_dummies(data, columns=['preferred_transportation'])
 
-    numeric_data = data[['income', 'latitude', 'longitude']]
+    numeric_data = data[['attribute1', 'attribute2', 'attribute3', 'attribute4', 'attribute5',
+                         'max_travel_time', 'latitude', 'longitude']]
     normalized_data = (numeric_data - numeric_data.iloc[:-1].mean(numeric_only=True)) / numeric_data.iloc[:-1].std(numeric_only=True)
-    data[['income', 'latitude', 'longitude']] = normalized_data
+    data[['attribute1', 'attribute2', 'attribute3', 'attribute4', 'attribute5',
+          'max_travel_time', 'latitude', 'longitude']] = normalized_data
+
+    # print(data.to_string())
 
     # Set up KNN
     model = KNN(n_neighbors=1)
@@ -74,9 +79,10 @@ def match_knn():
     # Find center_id of match
     match_id = model.predict(data.drop('match', axis=1).iloc[-1].to_numpy().reshape(1, -1))
 
-    matched_center = db.get_or_404(Center, match_id).to_dict()
-    matched_center.update(travel_time(current_user.address, matched_center['address']))
-    return matched_center
+    matched_physician = db.get_or_404(Physician, match_id)
+    response = matched_physician.to_dict(rules=("-patients",))
+    response.update(travel_time(current_user.address, matched_physician.center.address))
+    return response
 
 
 @match_routes.route("/score", methods=['GET'])
@@ -88,8 +94,8 @@ def match_by_score():
 
     # Return top 10 centers
 
-    centers = db.session.query(Center).limit(10).all()
-    return [center.to_dict() for center in centers]
+    physicians = db.session.query(Physician).limit(10).all()
+    return [physician.to_dict() for physician in physicians]
 
 
 def travel_time(address1, address2, mode=None):

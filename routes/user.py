@@ -1,6 +1,6 @@
 from flask import Blueprint, request, Response, jsonify
 from sqlalchemy import select
-from database import db, User
+from database import db, User, Insurance
 from flask_login import login_required, current_user
 
 user_routes = Blueprint('user', __name__, url_prefix='/user')
@@ -8,8 +8,10 @@ user_routes = Blueprint('user', __name__, url_prefix='/user')
 
 @user_routes.route("/", methods=['POST'])
 def add_user():
-    content = request.json
-    user = User(**content)
+    user_json = request.json
+    if "insurance" in user_json:
+        user_json["insurance"] = db.session.scalars(select(Insurance).filter_by(name=user_json["insurance"])).first()
+    user = User(**user_json)
     db.session.add(user)
     db.session.commit()
     return Response("User has been created.", status=201)

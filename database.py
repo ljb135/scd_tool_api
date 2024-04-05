@@ -1,7 +1,7 @@
 from typing import List
 
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy import Integer, String, Double, Date, Column, ForeignKey, Float, Table
+from sqlalchemy import Integer, String, Double, Date, Column, ForeignKey, Float, Table, Boolean
 from flask_login import UserMixin
 from sqlalchemy.orm import relationship, Mapped
 from sqlalchemy_serializer import SerializerMixin
@@ -39,12 +39,9 @@ class User(db.Model, UserMixin, SerializerMixin):
     insurance_id: int = Column(ForeignKey("insurance.id"))
     insurance: Mapped['Insurance'] = relationship(back_populates="users")
 
-    physician_id: int = Column(ForeignKey("physician.id"))
-    physician: Mapped['Physician'] = relationship(back_populates="patients")
+    physician_associations: Mapped[List['UserPhysicianAssociation']] = relationship(back_populates="user")
 
     reviews: Mapped[List['Review']] = relationship(back_populates="user")
-    
-    # physician = db.relationship("user_physician_table", back_populates="user")
 
 
 coverage_table = Table(
@@ -55,23 +52,16 @@ coverage_table = Table(
 )
 
 
-class user_physician_table(db.Model, SerializerMixin):
-    Column("user_id", ForeignKey("physician.id"), primary_key=True),
-    Column("physician_id", ForeignKey("user.id"), primary_key=True),
-    favorite: bool = Column(bool, nullable=True, unique=False)
-    score: int = Column(Integer, nullable=True, unique=False)
+class UserPhysicianAssociation(db.Model, SerializerMixin):
+    user_id: int = Column(ForeignKey("physician.id"), primary_key=True)
+    physician_id: int = Column(ForeignKey("user.id"), primary_key=True)
+    match_score: float = Column(Float)
+    currently_visiting: bool = Column(Boolean)
+    visited: bool = Column(Boolean)
+    saved: bool = Column(Boolean)
     
-    user = db.relationship("User", back_populates="physician")
-    physician = db.relationship("Physician", back_populates="user")
-    
-
-# user_physician_table = Table(
-#     "user_physician_table",
-#     Column("user_id")
-#     Column("physician_id")
-#     favorite
-#     score
-# )
+    user = db.relationship("User", back_populates="physician_associations")
+    physician = db.relationship("Physician", back_populates="patient_associations")
 
 
 @dataclass
@@ -109,15 +99,12 @@ class Physician(db.Model, SerializerMixin):
     additional_language: str = Column(String(40))
     image_link: str = Column(String(500))
 
-    patients: Mapped[List['User']] = relationship(back_populates='physician')
+    patient_associations: Mapped[List["UserPhysicianAssociation"]] = relationship(back_populates="physician")
 
     center_id: int = Column(ForeignKey("center.id"))
     center: Mapped['Center'] = relationship(back_populates='physicians')
     
     reviews: Mapped[List["Review"]] = relationship(back_populates="physician")
-    
-    # user = db.relationship("user_physician_table", back_populates="physician")
-
 
 
 @dataclass

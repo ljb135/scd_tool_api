@@ -6,7 +6,7 @@ from flask_login import login_required, current_user
 user_routes = Blueprint('user', __name__, url_prefix='/user')
 
 
-@user_routes.route("/", methods=['POST'])
+@user_routes.route("", methods=['POST'])
 def add_user():
     user_json = request.json
     if "insurance" in user_json:
@@ -17,7 +17,7 @@ def add_user():
     return Response("User has been created.", status=201)
 
 
-@user_routes.route("/", methods=['GET'])
+@user_routes.route("", methods=['GET'])
 def get_all_users():
     users = db.session.scalars(select(User))
     return [user.to_dict() for user in users]
@@ -45,6 +45,20 @@ def delete_current_user():
     db.session.delete(current_user)
     db.session.commit()
     return Response("User has been deleted.", status=200)
+
+
+@user_routes.route("/current/accessible-physicians", methods=['GET'])
+@login_required
+def get_physicians_for_current_user():
+    centers = current_user.insurance.covers
+    return [physician.to_dict() for center in centers for physician in list(center.physicians)]
+
+
+@user_routes.route("/current/accessible-centers", methods=['GET'])
+@login_required
+def get_centers_for_current_user():
+    centers = current_user.insurance.covers
+    return [center.to_dict() for center in centers]
 
 
 @user_routes.route("/<int:user_id>", methods=['GET'])

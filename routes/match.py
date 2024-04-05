@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score
 from dotenv import load_dotenv
 import os
 
-match_routes = Blueprint('match', __name__, url_prefix='/match')
+match_routes = Blueprint('match', __name__, url_prefix='/user/current/')
 
 load_dotenv()
 gmaps = googlemaps.Client(key=os.environ['GOOGLE_MAP_API_KEY'])
@@ -42,7 +42,7 @@ def filter_attributes(patient):
     return patient_dict
 
 
-@match_routes.route("/KNN", methods=['GET'])
+@match_routes.route("/KNN-match", methods=['GET'])
 @login_required
 def match_knn():
     # Filter centers by user age and insurance
@@ -85,7 +85,7 @@ def match_knn():
     return response
 
 
-@match_routes.route("/score", methods=['GET'])
+@match_routes.route("/score-match", methods=['GET'])
 @login_required
 def match_by_score():
     # Run match

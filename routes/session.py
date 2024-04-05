@@ -12,7 +12,7 @@ def load_user(user_id):
     return User.query.get(user_id)
 
 
-@session_routes.route("/", methods=['POST'])
+@session_routes.route("", methods=['POST'])
 def login():
     user = User.query.filter_by(email=request.json.get("email")).first()
     if user and user.password == request.json.get("password"):
@@ -21,7 +21,7 @@ def login():
     return Response("Authentication failed.", status=401)
 
 
-@session_routes.route("/", methods=['DELETE'])
+@session_routes.route("", methods=['DELETE'])
 def logout():
     logout_user()
     return Response("Session Destroyed.", status=200)

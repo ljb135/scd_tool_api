@@ -55,10 +55,10 @@ coverage_table = Table(
 @dataclass
 class UserPhysicianAssociation(db.Model, SerializerMixin):
     user_id: int = Column(ForeignKey("user.id"), primary_key=True)
-    user: Mapped[List['User']] = relationship(back_populates="physician_associations")
+    user: Mapped['User'] = relationship(back_populates="physician_associations")
 
     physician_id: int = Column(ForeignKey("physician.id"), primary_key=True)
-    physician: Mapped[List['Physician']] = relationship(back_populates="patient_associations")
+    physician: Mapped['Physician'] = relationship(back_populates="patient_associations")
 
     match_score: float = Column(Float)
     currently_visiting: bool = Column(Boolean)

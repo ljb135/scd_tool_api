@@ -130,6 +130,20 @@ def reformat_for_matching(user):
 
 @match_routes.route("/score-match", methods=['GET'])
 @login_required
+def get_matches():
+    associations = list(filter(lambda association: association.match_score, current_user.physician_associations))
+
+    if len(associations) == 0:
+        associations = match_by_score()
+
+    def association_to_dict(association):
+        result = association.physician.to_dict()
+        result.update(association.to_dict(only=("visited", "currently_visiting", "saved", "match_score")))
+        return result
+
+    return [association_to_dict(association) for association in associations]
+
+
 def match_by_score():
     # Run match
     user = reformat_for_matching(current_user)
@@ -141,11 +155,7 @@ def match_by_score():
         generate_association(score)
     db.session.commit()
 
-    # Return top 10 physicians
-    top_scores = sorted(physician_scores, key=lambda x: x[1], reverse=True)[:10]
-    top_ids = [score[0] for score in top_scores]
-    physicians = db.session.scalars(select(Physician).where(Physician.id.in_(top_ids))).all()
-    return [physician.to_dict() for physician in physicians]
+    return current_user.physician_associations
 
 
 def generate_association(physician_score):

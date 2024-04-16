@@ -43,6 +43,8 @@ class User(db.Model, UserMixin, SerializerMixin):
 
     reviews: Mapped[List['Review']] = relationship(back_populates="user")
 
+    symptoms: Mapped[List['DailySymptoms']] = relationship(back_populates="user")
+
 
 coverage_table = Table(
     "coverage_table",
@@ -139,3 +141,23 @@ class Insurance(db.Model, SerializerMixin):
 
     users: Mapped[List['User']] = relationship(back_populates='insurance')
     covers: Mapped[List['Center']] = relationship(secondary=coverage_table, back_populates='insurances')
+
+@dataclass
+class DailySymptoms(db.Model, SerializerMixin):
+    serialize_rules = ("-user",)
+
+    date: str = Column(Date, unique=False, primary_key=True)
+
+    user_id: int = Column(ForeignKey("user.id"), primary_key=True)
+    user: Mapped['User'] = relationship(back_populates="symptoms")
+
+    fever: bool = Column(Boolean)
+    chest_pain: bool = Column(Boolean)
+    coughing: bool = Column(Boolean)
+    shortness_of_breath: bool = Column(Boolean)
+    fatigue: bool = Column(Boolean)
+    swelling: bool = Column(Boolean)
+    jaundice: bool = Column(Boolean)
+    numbness: bool = Column(Boolean)
+    confusion: bool = Column(Boolean)
+    priapism: bool = Column(Boolean)

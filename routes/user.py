@@ -1,6 +1,8 @@
+from datetime import datetime
+
 from flask import Blueprint, request, Response, jsonify
 from sqlalchemy import select
-from database import db, User, Insurance, UserPhysicianAssociation
+from database import db, User, Insurance, UserPhysicianAssociation, DailySymptoms
 from flask_login import login_required, current_user
 
 user_routes = Blueprint('user', __name__, url_prefix='/user')
@@ -57,8 +59,13 @@ def get_physicians_for_current_user():
 @user_routes.route("/current/saved-physician", methods=['GET'])
 @login_required
 def get_saved_physicians_for_current_user():
+    def association_to_dict(association):
+        result = association.physician.to_dict()
+        result.update(association.to_dict(only=("visited", "currently_visiting", "saved", "match_score")))
+        return result
+
     associations = filter(lambda association: association.saved, current_user.physician_associations)
-    return [association.physician.to_dict() for association in associations]
+    return [association_to_dict(association) for association in associations]
 
 
 @user_routes.route("/current/saved-physician/<int:physician_id>", methods=['PUT'])
@@ -77,11 +84,47 @@ def delete_saved_physicians_for_current_user(physician_id):
     return Response("Physician unsaved.", status=200)
 
 
+@user_routes.route("/current/visited-physician/<int:physician_id>", methods=['PUT'])
+@login_required
+def update_visited_physicians_for_current_user(physician_id):
+    db.session.merge(UserPhysicianAssociation(user_id=current_user.id, physician_id=physician_id, visited=True))
+    db.session.commit()
+    return Response("Physician visited.", status=200)
+
+
+@user_routes.route("/current/visited-physician/<int:physician_id>", methods=['DELETE'])
+@login_required
+def delete_visited_physicians_for_current_user(physician_id):
+    db.session.merge(UserPhysicianAssociation(user_id=current_user.id, physician_id=physician_id, visited=False))
+    db.session.commit()
+    return Response("Physician unvisited.", status=200)
+
+
 @user_routes.route("/current/accessible-center", methods=['GET'])
 @login_required
 def get_centers_for_current_user():
     centers = current_user.insurance.covers
     return [center.to_dict() for center in centers]
+
+
+@user_routes.route("/current/daily-symptoms", methods=['GET'])
+@login_required
+def get_symptoms_for_current_user():
+    symptoms = current_user.symptoms
+    return [symptom.to_dict() for symptom in symptoms]
+
+
+@user_routes.route("/current/daily-symptoms", methods=['PUT'])
+@login_required
+def add_symptoms_for_current_user():
+    symptoms_json = request.json
+    symptoms_json["user_id"] = current_user.id
+    if "date" not in symptoms_json:
+        symptoms_json["date"] = datetime.now()
+    symptoms = DailySymptoms(**symptoms_json)
+    db.session.add(symptoms)
+    db.session.commit()
+    return Response("Symptoms have been logged.", status=201)
 
 
 @user_routes.route("/<int:user_id>", methods=['GET'])

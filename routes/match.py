@@ -11,6 +11,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from dotenv import load_dotenv
 import os
+import functools
 
 match_routes = Blueprint('match', __name__, url_prefix='/user/current/')
 
@@ -135,13 +136,21 @@ def get_matches():
 
     if len(associations) == 0:
         associations = match_by_score()
+    else:
+        associations.sort(key=lambda x: x.match_score, reverse=True)
 
-    def association_to_dict(association):
+    scores = [association.match_score for association in associations]
+    scores = [(score - min(scores)) / (max(scores) - min(scores)) * 5 for score in scores]
+
+    print(scores)
+
+    def association_to_dict(association, score):
         result = association.physician.to_dict()
-        result.update(association.to_dict(only=("visited", "currently_visiting", "saved", "match_score")))
+        result.update(association.to_dict(only=("visited", "currently_visiting", "saved")))
+        result["match_score"] = score
         return result
 
-    return [association_to_dict(association) for association in associations]
+    return [association_to_dict(association[0], association[1]) for association in zip(associations, scores)]
 
 
 def match_by_score():

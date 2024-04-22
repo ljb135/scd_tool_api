@@ -12,7 +12,7 @@ db = SQLAlchemy()
 
 @dataclass
 class User(db.Model, UserMixin, SerializerMixin):
-    serialize_rules = ('-physician_associations', '-insurance.users', '-insurance.covers', '-insurance_id', '-reviews')
+    serialize_rules = ('-physician_associations', '-insurance.users', '-insurance.covers', '-insurance_id', '-reviews', '-symptoms')
 
     id: int = Column(Integer, primary_key=True)
     email: str = Column(String(50), unique=True, nullable=False)
@@ -88,11 +88,18 @@ class Center(db.Model, SerializerMixin):
 
 @dataclass
 class Physician(db.Model, SerializerMixin):
-    serialize_rules = ('-center.physicians', '-patient_associations', '-reviews', 'avg_user_rating')
+    serialize_rules = ('-center.physicians', '-patient_associations', '-reviews', 'avg_user_rating', 'avg_attr')
 
     def avg_user_rating(self):
         reviews = self.reviews
         return sum(review.physician_score for review in reviews) / len(reviews) if len(reviews) > 0 else 0
+
+    def avg_attr(self):
+        reviews = self.reviews
+        attrs = {}
+        for i in range(1, 6):
+            attrs[f"attribute{i}"] = sum(review.__getattribute__(f"attribute{i}") for review in reviews) / len(reviews) if len(reviews) > 0 else 0
+        return attrs
 
     id: int = Column(Integer, primary_key=True)
     first_name: str = Column(String(30), nullable=False)

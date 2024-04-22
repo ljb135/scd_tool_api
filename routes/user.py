@@ -116,13 +116,12 @@ def get_symptoms_for_current_user():
 
 @user_routes.route("/current/daily-symptoms", methods=['PUT'])
 @login_required
-def add_symptoms_for_current_user():
+def update_symptoms_for_current_user():
     symptoms_json = request.json
     symptoms_json["user_id"] = current_user.id
     if "date" not in symptoms_json:
-        symptoms_json["date"] = datetime.now()
-    symptoms = DailySymptoms(**symptoms_json)
-    db.session.add(symptoms)
+        symptoms_json["date"] = datetime.today().strftime('%Y-%m-%d')
+    db.session.merge(DailySymptoms(**symptoms_json))
     db.session.commit()
     return Response("Symptoms have been logged.", status=201)
 

@@ -31,4 +31,4 @@ app.register_blueprint(match_routes)
 app.register_blueprint(insurance_routes)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host=os.environ["HOST"])

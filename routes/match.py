@@ -77,7 +77,7 @@ def match_knn():
     # print(data.to_string())
 
     # Set up KNN
-    model = KNN(n_neighbors=1)
+    model = KNN(n_neighbors=5)
     model.fit(data.drop('match', axis=1).iloc[:-1].to_numpy(), data['match'].iloc[:-1].to_numpy())
 
     # Find center_id of match
@@ -135,22 +135,20 @@ def get_matches():
     associations = list(filter(lambda association: association.match_score, current_user.physician_associations))
 
     if len(associations) == 0:
-        associations = match_by_score()
+        associations = sorted(match_by_score(), key=lambda x: x.match_score, reverse=True)
+        scores = [association.match_score for association in associations]
+        for association in associations:
+            association.match_score = (association.match_score - min(scores)) / (max(scores) - min(scores)) * 5
+            db.session.merge(association)
     else:
         associations.sort(key=lambda x: x.match_score, reverse=True)
 
-    scores = [association.match_score for association in associations]
-    scores = [(score - min(scores)) / (max(scores) - min(scores)) * 5 for score in scores]
-
-    print(scores)
-
-    def association_to_dict(association, score):
+    def association_to_dict(association):
         result = association.physician.to_dict()
-        result.update(association.to_dict(only=("visited", "currently_visiting", "saved")))
-        result["match_score"] = score
+        result.update(association.to_dict(only=("visited", "currently_visiting", "saved", "match_score")))
         return result
 
-    return [association_to_dict(association[0], association[1]) for association in zip(associations, scores)]
+    return [association_to_dict(association) for association in associations]
 
 
 def match_by_score():
